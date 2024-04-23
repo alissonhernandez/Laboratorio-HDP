@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  .btn-primary {
+    background-color: $color-primario;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: darken($color-primario, 10%);
+  }
