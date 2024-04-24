@@ -55,3 +55,6 @@ _Donde OceanLibrary es la carpeta del proyecto._
 * Hernández Arias, Alisson Andrea – HA21011. - [alissonhernandez](https://github.com/alissonhernandez)
 * Moreno Santiago, Dayna Rebeca – MS21017. - [Rebecamo](https://github.com/Rebecamo)
 
+# LICENCIA.
+
+_Este proyecto está bajo la Licencia (OceanLibrary License 2024) - puedes observar para mayor información [LICENSE.md](LICENSE.md).
