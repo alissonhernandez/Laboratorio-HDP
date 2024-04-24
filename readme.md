@@ -49,8 +49,9 @@ _Donde OceanLibrary es la carpeta del proyecto._
 
 
 # AUTORES.
-_Andrade Campos, Osiris Ivania – AC21059. [Osiris30](https://github.com/Osiris30)_
-_Castillo Portillos, Miriam Isabel – CP21026. [isabeCastillo](https://github.com/isabeCastillo)_
-_Hernández Arias, Alisson Andrea – HA21011. [alissonhernandez](https://github.com/alissonhernandez)_
-_Moreno Santiago, Dayna Rebeca – MS21017._
+
+* Andrade Campos, Osiris Ivania – AC21059. [Osiris30](https://github.com/Osiris30)
+* Castillo Portillos, Miriam Isabel – CP21026. [isabeCastillo](https://github.com/isabeCastillo)
+* Hernández Arias, Alisson Andrea – HA21011. [alissonhernandez](https://github.com/alissonhernandez)
+* Moreno Santiago, Dayna Rebeca – MS21017.
 
