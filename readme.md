@@ -15,7 +15,7 @@ _Esto te permitirán obtener una copia del proyecto en funcionamiento en tu máq
 2.	Dirigirse al apartado de CODE (en color verde) y copiar el link del repositorio.  
 3.	Dirigirse al entorno de desarrollo en este caso (VISUAL STUDIO). 
 4.	Crear una carpeta de manera local en el directorio de tu computadora. 
-5.	 Estando en la carpeta, abrir la consola con crtl +ñ y agregar el siguiente comando "git clone + link del repositorio". 
+5.	Estando en la carpeta, abrir la consola con crtl +ñ y agregar el siguiente comando "git clone + link del repositorio". 
 6.	Le damos aceptar y ya tendríamos el repositorio en nuestro ordenador.
 ```
 
@@ -49,8 +49,8 @@ _Donde OceanLibrary es la carpeta del proyecto._
 
 
 # AUTORES.
-Andrade Campos, Osiris Ivania – AC21059. [Osiris30](https://github.com/Osiris30)
-Castillo Portillos, Miriam Isabel – CP21026. [isabeCastillo](https://github.com/isabeCastillo)
-Hernández Arias, Alisson Andrea – HA21011. [alissonhernandez](https://github.com/alissonhernandez)
-Moreno Santiago, Dayna Rebeca – MS21017. 
+_Andrade Campos, Osiris Ivania – AC21059. [Osiris30](https://github.com/Osiris30)_
+_Castillo Portillos, Miriam Isabel – CP21026. [isabeCastillo](https://github.com/isabeCastillo)_
+_Hernández Arias, Alisson Andrea – HA21011. [alissonhernandez](https://github.com/alissonhernandez)_
+_Moreno Santiago, Dayna Rebeca – MS21017._
 
