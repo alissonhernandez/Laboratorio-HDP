@@ -57,4 +57,4 @@ _Donde OceanLibrary es la carpeta del proyecto._
 
 # LICENCIA.
 
-_Este proyecto está bajo la Licencia (OceanLibrary License 2024) - puedes observar para mayor información [LICENSE.md](LICENSE.md).
+Este proyecto está bajo la Licencia (OceanLibrary License 2024) - puedes observar para mayor información [LICENSE.md](LICENSE.md).
