@@ -4,7 +4,7 @@ _Este proyecto implica la creación de una biblioteca de estilos Bootstrap que i
 
 # OCEANLIBRARY.
 
-_Nuestra librería está inspirada en una paleta de colores oceánicos, utilizando por ejemplo: Colores RGB de fondo, borde, sombras, con diseños flexibles para poder implementarlos a través de contenedores flexibles y una implementación de filas y columnas de fácil entendimiento e implementación, así como diversas propiedades como colores de fondo, tipos de texto, bordes, paddings, bordes y algunas clases para definir por ejemplo: barras de navegación, formularios, alertas, tarjetas, contenedores etc. Espero te sea de agrado y utilidad._
+_Nuestra librería está inspirada en una paleta de colores oceánicos, utilizando por ejemplo: Colores RGB de fondo, borde, sombras, con diseños flexibles para poder implementarlos a través de contenedores flexibles y una implementación de filas y columnas de fácil entendimiento e implementación, así como diversas propiedades como colores de fondo, tipos de texto, bordes, paddings y algunas clases para definir por ejemplo: barras de navegación, formularios, alertas, tarjetas, contenedores etc. Espero te sea de agrado y utilidad._
 
 # INSTRUCCIONES.
 
