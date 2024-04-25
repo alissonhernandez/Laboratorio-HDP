@@ -1,3 +1,15 @@
+@use 'alertas.scss';
+@use 'badges.scss';
+@use 'barranavegacion.scss';
+@use 'botones.scss';
+@use 'formularios.scss';
+@use 'tarjetas.scss';
+
+
 $color-primario: #007bff;
 $color-fondo: #f8f9fa;
 $color-texto: #343a40;
+
+body{
+    background-color: $color-fondo;
+}
