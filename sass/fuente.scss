@@ -1,0 +1,47 @@
+@use 'paleta' as *;
+
+$size-1: 1vh;
+$size-2: 2.3vh;
+$size-3: 3vh;
+$size-4: 4vh;
+$size-5: 5vh;
+
+@mixin sizefont($nombre, $size){
+    .sf-#{$nombre}{
+        font-size: $size;
+    }
+}
+
+@include sizefont('1',$size-1 );
+@include sizefont('2',$size-2 );
+@include sizefont('3', $size-3);
+@include sizefont('4', $size-4);
+@include sizefont('5', $size-5 );
+
+.gf{
+    font-weight: bold;
+}
+
+@mixin colorfuente($nombre, $color){
+    .color-font-#{$nombre}{
+        color:$color;
+    }
+}
+
+@include colorfuente('naranja',$naranja);
+@include colorfuente('celeste',$celeste);
+@include colorfuente('negro',$negro);
+@include colorfuente('blanco',$blanco);
+@include colorfuente('aquamarine',$aquamarine);
+@include colorfuente('crema',$crema);
+@include colorfuente('rubio',$rubio);
+
+.ttxt-Arial{
+    font-family: Arial ;
+}
+.ttxt-Calibri{
+    font-family: Calibri;
+}
+.ttxt-Calibri{
+    font-family: Calibri;
+}
