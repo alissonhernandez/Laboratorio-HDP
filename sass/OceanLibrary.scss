@@ -1,10 +1,11 @@
-@use 'alertas.scss';
-@use 'badges.scss';
-@use 'barranavegacion.scss';
-@use 'botones.scss';
-@use 'formularios.scss';
-@use 'tarjetas.scss';
-@use 'paleta.scss';
+@use 'alertas';
+@use 'badges';
+@use 'barranavegacion';
+@use 'botones';
+@use 'formularios';
+@use 'tarjetas';
+@use 'paleta';
+@use 'fuente';
 
 body{
     background-color: $color-fondo;
