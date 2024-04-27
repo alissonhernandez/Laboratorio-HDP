@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://getbootstrap.com/">
-    <img src="./img/Logo.jpeg" alt="Logo" width="200" height="165">
+    <img src="./img/LogoOcean.jpeg" alt="Logo" width="200" height="165">
   </a>
 </p>
 
@@ -9,7 +9,7 @@
 - [Proyecto](#sobre-nuestro-proyecto)
 - [Ocean Library](#oceanlibrary)
 - [Instrucciones](#instrucciones)
-- [¿Qué necesitas?](#que-necesitas)
+- [¿Qué necesitas?](#qué-necesitas)
 - [Instalación](#instalación)
 - [Realizado con](#realizados-con)
 - [Versión](#version)
