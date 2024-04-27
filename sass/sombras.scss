@@ -1,0 +1,21 @@
+@use 'paleta' as *;
+$shadow-1: $celeste;
+$shadow-2: $negro;
+$shadow-superior: $naranja;
+$shadow-inferior: $naranja;
+
+.sombra-1{
+     box-shadow: $shadow-1;
+}
+
+.sombra-2{
+    box-shadow: $shadow-2;
+}
+
+.sombra-superior{
+    box-shadow: $shadow-superior;
+}
+
+.sombra-inferior{
+    box-shadow: $shadow-inferior;
+}

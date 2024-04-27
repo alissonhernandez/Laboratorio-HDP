@@ -1,0 +1,62 @@
+.pos-rel{
+    position: relative;
+  }
+  
+  .izquierda{
+    position: absolute;
+    left: 0;
+    margin: auto;
+  }
+  
+  .arriba{
+    position: absolute;
+    top: 0;
+    margin: auto;
+  }
+  
+  .abajo{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .derecha{
+    position: absolute;
+    right: 0;
+    margin: auto;
+  }
+  
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .centrado-arriba{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .centrado-abajo{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .centrado-derecha{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .centrado-izquierda{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
