@@ -21,9 +21,3 @@ $color-mar: (
 $color-oscuro:(
     "negro": $negro,
 );
-
-@each $color, $valorcolor in $color-amanecer {
-    .cf-#{$color} {   
-        background-color: $valorcolor;
-    }
-}
