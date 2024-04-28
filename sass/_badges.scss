@@ -1,0 +1,121 @@
+@use 'sombras' as * ;
+@use 'fuente' as * ;
+@use 'paleta' as * ;
+//colores
+
+$color-t:white;
+$t1:300px;
+
+//propiedades de los badgets
+
+$pd:4px;
+$br:10px;
+$btl:5px;
+$btr:5px;
+
+
+$wi:60px;
+$het: 60px;
+
+.badge-1{
+
+
+color: $color-t;
+width: 500px;
+height: 500px;
+padding: 4px;
+
+}
+
+.badge-2{
+
+
+    color: $color-t;
+   
+    padding: 4px;
+    border-radius: $br;
+    
+    }
+    .badge-2{
+
+
+        color: $color-t;
+       
+        padding: 4px;
+        border-radius: $br;
+        box-shadow: $shadow-1;
+        
+        }
+        .badge-3{
+
+
+            color: $color-t;
+           
+            padding: 4px;
+            background-color: $claro;
+            
+            }
+            .badge-3:hover{
+
+
+               
+                background-color: gray;
+                
+                }
+
+                .badge-4{
+
+
+                    color: $color-t;
+                    
+                    padding: 4px;
+                    border-top-left-radius: $btl;
+                    border-bottom-right-radius: $btr;
+                  
+                    
+                    }
+
+                    .badge-5{
+
+
+                        color: $color-t;
+       
+                        padding: 4px;
+                        border-radius: $br;
+                        
+                        }
+
+                        .icono-{
+                            width: 60px;
+                            height: 60px;
+                            background-color: gray;
+                            padding: 3px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+ 
+
+                        }
+                     
+
+                        .-link-bad{
+
+
+                            text-decoration: none;
+                            color: $color-t;
+                            
+                        }
+
+
+.rubio{
+
+    background-color: $rubio;
+}
+.celeste{
+
+    background-color: $celeste;
+}
+.crema{
+
+    background-color: $crema;
+}
