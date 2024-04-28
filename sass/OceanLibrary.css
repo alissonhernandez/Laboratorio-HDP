@@ -115,27 +115,27 @@
 }
 
 .badge-1 {
-  color: white;
+  color: rgb(0, 0, 0);
   width: 500px;
   height: 500px;
   padding: 4px;
 }
 
 .badge-2 {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 4px;
   border-radius: 10px;
 }
 
 .badge-2 {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 4px;
   border-radius: 10px;
   box-shadow: #63a3ac;
 }
 
 .badge-3 {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 4px;
   background-color: #ffffff;
 }
@@ -145,14 +145,14 @@
 }
 
 .badge-4 {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 4px;
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
 .badge-5 {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 4px;
   border-radius: 10px;
 }
@@ -169,7 +169,7 @@
 
 .-link-bad {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .rubio {
