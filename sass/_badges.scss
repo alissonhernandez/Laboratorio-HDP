@@ -1,9 +1,9 @@
 @use '_sombras' as * ;
 @use '_fuente' as * ;
-@use '_paleta' as * ;
+@use '_colores' as * ;
+//colores
 
-
-$color-t:rgb(0, 0, 0);
+$color-t:black;
 $t1:300px;
 
 //propiedades de los badgets
@@ -18,6 +18,7 @@ $wi:60px;
 $het: 60px;
 
 .badge-1{
+
 
 color: $color-t;
 width: 500px;
@@ -58,7 +59,7 @@ padding: 4px;
 
 
                
-                background-color: cadetblue;
+                background-color: gray;
                 
                 }
 
@@ -87,7 +88,7 @@ padding: 4px;
                         .icono-{
                             width: 60px;
                             height: 60px;
-                            background-color: cadetblue;
+                            background-color: gray;
                             padding: 3px;
                             display: flex;
                             align-items: center;
@@ -106,15 +107,15 @@ padding: 4px;
                         }
 
 
-.rubio{
+.crema{
 
-    background-color: $rubio;
+    background-color: $crema;
 }
 .celeste{
 
     background-color: $celeste;
 }
-.crema{
+.rubio{
 
-    background-color: $crema;
+    background-color: $rubio;
 }
