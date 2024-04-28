@@ -7,6 +7,23 @@
   text-decoration: none;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn.small {
+  font-size: 60px;
+}
+.btn.medium {
+  font-size: 120px;
+}
+.btn.large {
+  font-size: 180px;
+}
+
 .form-control {
   display: block;
   width: 100%;
@@ -444,4 +461,6 @@
   .columna-5 {
     grid-template-columns: repeat(1, 1fr);
   }
-}/*# sourceMappingURL=OceanLibrary.css.map */
+}
+
+/*# sourceMappingURL=OceanLibrary.css.map */
