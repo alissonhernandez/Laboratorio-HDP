@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIBRARY</title>
+  <link rel="stylesheet" href="css/OceanLibrary.css">
+  <title>OCEAN LIBRARY</title>
+</head>
+<body class = "ttxt-Arial">
+  <header class = "menu-fondo">
+    <div class = "navbar">
+      <img class = "img-1" src = "img/logoOcean.png">
+      <ul>
+        <li class="etiqueta rde-s"><a class="t-none"  href="./index.html">INICIO</a></li>
+        <li class="etiqueta rde-s"><a class="t-none" href="./enlaces/docs.html">OPCIONES</a></li>
+        <li class="etiqueta rde-s"> <a class="t-none" href="https://github.com/alissonhernandez/Laboratorio-HDP">GITHUB</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="link barra-vertical mar-1 fj rde-s">
+    <h1 class="sf-3 gf p-3">CREAR COMPONENTES</h1>
+    <a class="link-s sf-2" href="./botones.html">Botones</a>
+    <a class="link-s sf-2" href="./formularios.html">Formularios</a>
+    <a class="link-s sf-2" href="./tarjetas.html">Tarjetas</a>
+    <a class="link-s sf-2" href="./alertas.html">Alertas</a>
+    <a class="link-s sf-2" style="background-color: #3c91e6ff;" href="./barra.html">Barras de Navegacion</a>
+    <a class="link-s sf-2" href="./badges.html">Badges</a>
+    <a class="link-s sf-2" href="./container.html">Containers</a>
+
+    <h1 class="sf-3 gf p-3">CLASES UTILITARIAS</h1>
+
+    <a class="link-s sf-2" href="./fuente.html">Modificar tamaño,grosor</a>
+    <a class="link-s sf-2" href="./sombras.html">Crear Sombras</a>
+    <a class="link-s sf-2" href="./bordes.html">Crear Margenes,padding</a>
+    <a class="link-s sf-2" href="./moverElementos.html">Mover elementos</a>
+    <a class="link-s sf-2" href="./redondeo.html">Redondear elementos</a>
+    <a class="link-s sf-2" href="./ocultar.html">Ocultar Elementos</a>
+    <a class="link-s sf-2" href="./colores.html">Colores de fondo</a>
+</div>
+
+<div style=" margin-left: 19.7%; padding-top: 11vh; height: 100%; " class="cf-r5 p-5 par-5">
+    <h1 class="gf sf-5">Contenedores</h1>
+    <p class="mar-5 sf-3">Estos estan divididos en 3 tipos <span class="gf">contenedores, contenedores-(pq,md, gn, xgn y xxgn) y contenedor-100.</p>
+
+    <h2 class="gf sf-3 mar-5">Contenedor</h2>
+    <p class="mar-5 sf-2">Este contenedor pemite adaptar en cada uno de los "breakpoints", que es nada mas y nada menos, las resoluciones predefinidas que son:</p>
+    <p class="mar-5 sf-2"><span class="color-font-peligro">pq</span>: Tamaño <= 540px</p>
+    <p class="mar-5 sf-2"><span class="color-font-peligro">md</span>: Tamaño <= 720px</p>
+    <p class="mar-5 sf-2"><span class="color-font-peligro">gn</span>: Tamaño <= 960px</p>
+    <p class="mar-5 sf-2"><span class="color-font-peligro">xgn</span>: Tamaño <= 1200px</p>
+    <p class="mar-5 sf-2"><span class="color-font-peligro">xxg</span>: Tamaño <= 1400px</p>
+    <p class="mar-5 sf-2">Al alcanzar uno de estos puntos de quiebre el contenedor se adapta 250px menos que su tamaño actual esto para que no se desborde, pero al llegar a 540px su tamaño sera del 100% del espacio disponible en el contenedor padre. Se declara en la clase como "contenedor."</p>
+
+    <h2 class="gf sf-3 mar-5">Contenedores-(pq, md, gn, xgn y xxgn)</h2>
+    <p class="mar-5 sf-2">Estos contenedores se comportan de la siguiente manera, cuando son mayores que su resolucion minima se adapta 250px menos que sus breakpoints, pero al llegar a su propio breakpoints, toma un valor de 100% en la pantalla de espacio disponible</p>
+    
+    <p class="mar-5 sf-2">Al alcanzar uno de estos puntos de quiebre el contenedor se adapta 250px menos que su tamaño actual esto para que no se desborde, pero al llegar a 540px su tamaño sera del 100% del espacio disponible en el contenedor padre. Se declara en la clase como "contenedor-{Cualquier subfijo ya sea pq,md etc}" pero esto sin incluir los corchetes.</p>
+
+    <h2 class="gf sf-3 mar-5">Contenedor-100</h2>
+    <p class="mar-5 sf-2">Este contenedor pemite alcanzar el 100% del contenedor padre, quitando todo tipo de margin, padding abarcando todo el espacio disponible, util para ser un container principal o un divo donde se necesite ocupar el 100% del tamaño disponible.</p>
+
+    <h2 class="gf sf-3 mar-5">Filas y columnas</h2>
+    <p class="mar-5 sf-2">El uso de filas y columnas hace que una pagina web sea mucho mas responsive, en esta libreria proporcionamos un modelado de columnas y filas donde, se debe crear primero un contenedor padre con la propiedad "fila" ejemplo utilizando un div <span class="gf sf-2">&lt;div class="fila"&gt;&lt;/div&gt;</span> en donde ira definido tambien el modelo de columnas de la siguiente manera: <span class="gf sf-2">&lt;div class="fila columna-5"&gt;&lt;/div&gt;</span> donde cada elemento que se encuentre en el div se adpatara al modelo de 5 columnas, las filas son generadas automaticamente. Los tipos de columnas que existen son los siguientes:</p>
+
+    <p class="mar-5 sf-2"><span class="color-font-celeste">columna-5</span>: Se generan 5 columnas</p>
+    <p class="mar-5 sf-2"><span class="color-font-celeste">columna-4</span>: Se generan 4 columnas</p>
+    <p class="mar-5 sf-2"><span class="color-font-celeste">columna-3</span>: Se generan 3 columnas</p>
+    <p class="mar-5 sf-2"><span class="color-font-celeste">columna-2</span>: Se generan 2 columnas</p>
+    <p class="mar-5 sf-2"><span class="color-font-celeste">columna-1</span>: Se genera una sola columna</p>
+
+    <p class="mar-5 sf-2">Las columnas al encontrarse con los "puntos de quiebre" mencionados anteriormente, se van adaptando de uno en uno, ejemplo al llegar al primer punto de quiebre se tiene una columna de tamaño 5, esta se reducira a 4 y asi sucesivamente hasta solo quedar 1 columna.</p>
+    
+</div>
+</body>
+</html>

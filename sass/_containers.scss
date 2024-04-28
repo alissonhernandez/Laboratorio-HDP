@@ -1,0 +1,182 @@
+$breakpoint: (
+  xxgn: 1400px,  
+  xgn: 1200px,
+  gn: 960px,
+  md: 720px,
+  pq: 540px,
+);
+
+@mixin redimencionar($tam){
+  @media screen and (max-width: map-get($breakpoint,$tam)){
+    @content;
+  }
+};
+
+.contenedor{
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  @each $nombre, $tamanio in $breakpoint{
+    @if $tamanio > 540px{
+      
+      @include redimencionar($nombre){
+        width: $tamanio - 300px;
+      }
+    }@else {
+      @include redimencionar($nombre){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contenedor-100{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@each $nombre-contenedor, $valor-contenedor in $breakpoint {
+  .contenedor-#{$nombre-contenedor} {   
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @if $nombre-contenedor == "pq"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 540px{
+          
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }@else {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $nombre-contenedor == "md"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 720px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 720px{
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $nombre-contenedor == "gn"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 960px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 960px {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $nombre-contenedor == "xgn"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 1200px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 1200px {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $nombre-contenedor == "xxgn"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 1400px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 1400px {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Generar columnas y filas*/
+.fila{
+  display: grid;
+  gap: 1px;
+}
+$tamanios-columnas:(1,2,3,4,5);
+
+@each $tamanios in $tamanios-columnas{
+.columna-#{$tamanios}{
+  grid-template-columns: repeat(#{$tamanios},1fr);
+  @if $tamanios != 1 {
+  
+  @if $tamanios == 2 {
+      @include redimencionar("xgn"){
+      grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 3 {
+      @include redimencionar("xgn"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include redimencionar("gn"){
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 4 {
+
+      @include redimencionar("xgn"){
+          grid-template-columns: repeat(3,1fr);
+      }
+      @include redimencionar("gn"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include redimencionar("md"){
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 5 {
+      @include redimencionar("xgn"){
+          grid-template-columns: repeat(4,1fr);
+      }
+      @include redimencionar("gn"){
+          grid-template-columns: repeat(3,1fr);
+      }
+      @include redimencionar("md"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include redimencionar("pq"){
+      grid-template-columns: repeat(1,1fr);
+      }
+  }
+}
+}
+}
