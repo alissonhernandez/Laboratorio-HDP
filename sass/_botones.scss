@@ -1,0 +1,42 @@
+$small: 60px;
+$medium: 120px;
+$large: 180px;
+$xl: 240px;
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+@mixin button-style($color) {
+    background-color: $color;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: $medium-size;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($color, 10%);
+    }
+  }
+  
+  
+  .btn {
+    &.small {
+      font-size: $small;
+    }
+  
+    &.medium {
+      font-size: $medium;
+    }
+  
+    &.large {
+      font-size: $large;
+    }
+  }
+  
+  
