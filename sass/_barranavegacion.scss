@@ -71,25 +71,22 @@ $t-a:center;
 }
 
 .color{
-color: $menu-colort ;
-
+    color: $menu-colort ;
 }
 
 .barra-vertical{
-background-color: lighten($primario, 30) ;
-width: 19.7%;
-height: 95%;
-margin-top: 9vh;
+    background-color: lighten($primario, 30) ;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 9vh;
 }
 
 .link-s{
-
-display: block;
-text-decoration: none;
-text-align: justify;
-padding: $mg;
-color: black;
-
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    padding: $mg;
+    color: black;
 }
 .link-s:hover{
     background-color: $bg2;
@@ -98,27 +95,20 @@ color: black;
     position: fixed;
 } 
 
-//////////////////////////////////////////////////////////////////////////
-
-
-
 //clase para el color del header
 .fondo-menu1{
     width: 100%;
     height: 9vh;
     background-color:$secundario;
-    }
-    //clase para el menu y centrado
-    .navbar-2{
+}
+//clase para el menu y centrado
+.navbar-2{
     text-align: $t-a;
-    }
-    //clase logo
-    
+}
+//clase logo
 
-
-    //clase para los elementos del menu
-    .etiqueta-2{
-    
+//clase para los elementos del menu
+.etiqueta-2{
     list-style: $list-n;
     padding: $pd;
     display: $ds-iblock;
@@ -127,48 +117,39 @@ color: black;
     font-size: $size-2;
     font-size: $ft;
     transition: transform .5s ease-in;
-    
-    
-    
-    }
-    .t-none{
-    
-        text-decoration: none;
-        color:black;
-    }
-    .etiqueta-2:hover{
-        color:$bg;
-    
-        background-color: $claro;
-        transform: translateX(20px);
-    }
-    
-    .color{
+}
+.t-none{
+    text-decoration: none;
+    color:black;
+}
+.etiqueta-2:hover{
+    color:$bg;
+    background-color: $claro;
+    transform: translateX(20px);
+}
+
+.color{
     color: $menu-colort ;
-    
-    }
-    
-   
-    .link-s{
-    
+}
+
+.link-s{
     display: block;
     text-decoration: none;
     text-align: justify;
     padding: $mg;
     color: black;
-    
-    }
-    .link-s:hover{
+}
+.link-s:hover{
         background-color: $bg2;
-    }
-    .fj{
-        position: fixed;
-    }
+}
+.fj{
+    position: fixed;
+}
 
 @mixin laptop{
     @media screen and (max-height: 860px) {
         @content;
-      }
+    }
     @media screen and (max-width: 1490px){
         @content;
     }
@@ -181,49 +162,39 @@ color: black;
         width: 19.7%;
         height: 95%;
         margin-top: 9vh;
-        }
-        
-        .link-s{
-        
+    }
+    .link-s{
         display: block;
         text-decoration: none;
         text-align: justify;
         padding: $pd1;
         color: black;
-        
-        }
+    }
 }
-    
 
 .mtama{
-
     width: 100%;
     height:auto;
     display: flex;
 }
 
 .nvbar-3{
-
-width: 20%;
-background-color: gray;
-text-align: center;
-
+    width: 20%;
+    background-color: gray;
+    text-align: center;
 }
 
 .link-{
-
-text-decoration: none;
-color: rgb(255, 255, 255);
-font-size: 18px;
-letter-spacing: 2px;
-display: list-item;
-padding: 20px;
-border-top: 1px solid black ;
-border-bottom: 1px solid black ;
-text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    text-align: center;
 }
 .link-:hover{
-
-background-color: rgb(24, 21, 21);
-
+    background-color: rgb(24, 21, 21);
 }
