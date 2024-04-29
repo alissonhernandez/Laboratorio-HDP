@@ -1,8 +1,229 @@
-.navbar {
-    padding: 1rem;
+@use '_fuente';
+@use '_paleta';
+
+//variable menu
+$ds-flex: flex;
+$ds-iblock: inline-block;
+$al-i: center;
+$jc: space-between;
+
+//variables margin
+$pt:30px;
+$p:8px;
+$pl:5px;
+$pr:5px;
+$pd:0px 20px;
+
+//colores de menu
+$menu-colort:#ffffff;
+$bg:#d3c199;
+$bg2:#63a3ac;
+
+//centrado y tamaño de imagen
+$centrado: 0 auto;
+$wm:100%;
+$h:auto;
+$tama: 8vh;
+$mg:16px;
+$list-n: none;
+$mgl:75px;
+$pd:25px 0;
+$f:left;
+$c-c: #000;
+$ft:Times;
+$t-a:center;
+
+//clase para el color del header
+.fondo-menu{
+    width: 100%;
+    height: 9vh;
+    background-color:#e8c069;
+}
+//clase para el menu y centrado
+.navbar{
+    text-align: $t-a;
+}
+//clase logo
+.ig{
+    width: $tama;
+    padding: $p;
+    float: $f;
+}
+//clase para los elementos del menu
+.etiqueta{
+    list-style: $list-n;
+    padding: $pd;
+    display: $ds-iblock;
+    padding: $pd;
+    margin-right: $mg;
+    font-size: $size-2;
+    font-size: $ft;
+    transition: transform .2s ease-in;
+}
+.t-none{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.etiqueta:hover{
+    color:$bg2;
+    background-color: rgb(124, 121, 121);
+    transform: translateY(5px);
 }
 
-.nav-link {
-    padding: 0.5rem 1rem;
+.color{
+color: $menu-colort ;
+
+}
+
+.barra-vertical{
+background-color: lighten($primario, 30) ;
+width: 19.7%;
+height: 95%;
+margin-top: 9vh;
+}
+
+.link-s{
+
+display: block;
+text-decoration: none;
+text-align: justify;
+padding: $mg;
+color: black;
+
+}
+.link-s:hover{
+    background-color: $bg2;
+}
+.fj{
+    position: fixed;
+} 
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//clase para el color del header
+.fondo-menu1{
+    width: 100%;
+    height: 9vh;
+    background-color:$secundario;
+    }
+    //clase para el menu y centrado
+    .navbar-2{
+    text-align: $t-a;
+    }
+    //clase logo
+    
+
+
+    //clase para los elementos del menu
+    .etiqueta-2{
+    
+    list-style: $list-n;
+    padding: $pd;
+    display: $ds-iblock;
+    padding: $pd;
+    margin-right: $mg;
+    font-size: $size-2;
+    font-size: $ft;
+    transition: transform .5s ease-in;
+    
+    
+    
+    }
+    .t-none{
+    
+        text-decoration: none;
+        color:black;
+    }
+    .etiqueta-2:hover{
+        color:$bg;
+    
+        background-color: $claro;
+        transform: translateX(20px);
+    }
+    
+    .color{
+    color: $menu-colort ;
+    
+    }
+    
+   
+    .link-s{
+    
+    display: block;
     text-decoration: none;
+    text-align: justify;
+    padding: $mg;
+    color: black;
+    
+    }
+    .link-s:hover{
+        background-color: $bg2;
+    }
+    .fj{
+        position: fixed;
+    }
+
+@mixin laptop{
+    @media screen and (max-height: 860px) {
+        @content;
+      }
+    @media screen and (max-width: 1490px){
+        @content;
+    }
+}
+
+@include laptop(){
+    $pd1: 10px;
+    .barra-vertical{
+        background-color: lighten($primario, 30) ;
+        width: 19.7%;
+        height: 95%;
+        margin-top: 9vh;
+        }
+        
+        .link-s{
+        
+        display: block;
+        text-decoration: none;
+        text-align: justify;
+        padding: $pd1;
+        color: black;
+        
+        }
+}
+    
+
+.mtama{
+
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+
+.nvbar-3{
+
+width: 20%;
+background-color: gray;
+text-align: center;
+
+}
+
+.link-{
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+letter-spacing: 2px;
+display: list-item;
+padding: 20px;
+border-top: 1px solid black ;
+border-bottom: 1px solid black ;
+text-align: center;
+}
+.link-:hover{
+
+background-color: rgb(24, 21, 21);
+
 }

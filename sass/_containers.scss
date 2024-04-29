@@ -134,7 +134,6 @@ $tamanios-columnas:(1,2,3,4,5);
 .columna-#{$tamanios}{
   grid-template-columns: repeat(#{$tamanios},1fr);
   @if $tamanios != 1 {
-  
   @if $tamanios == 2 {
       @include redimencionar("xgn"){
       grid-template-columns: repeat(1,1fr);
