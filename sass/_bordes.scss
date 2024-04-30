@@ -1,0 +1,64 @@
+@use 'paleta'; //modulo paleta para utilizar los colores
+$tipo: solid; //declaracion de la variable borde(tamaño del borde) tipo(tipo de borde)
+
+
+$color-solido: (
+    "naranja": $naranja,
+    "celeste":$celeste,
+    "negro": $negro,
+    "blanco": $blanco,
+    "aquamarine": $aquamarine,
+    "crema": $crema,
+    "rubio": $rubio,
+    "rojo": $rojo,
+
+);
+
+$tamanio:(
+    "1": 3px,
+    "2": 7px,
+    "3": 10px,
+    "4": 13px,
+    "5": 16px,
+
+);
+
+$lados:(
+    "b": 1px,
+    "bt": top,
+    "br": rigth,
+    "bbm": bottom,
+    "biz": left,
+);
+
+//funcion que genera clases de borde general 
+@each $lado, $valorlado in $lados{
+
+    @each $borde, $valorborde in $tamanio {
+        @each $color, $valorcolor in $color-solido {
+
+            @if $lado == "b" {
+                .#{$lado}-#{$color}-#{$borde} {
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-width: $valorborde;
+                }
+            }
+
+            @if $lado !="b" {
+                .#{$lado}-#{$color}-#{$borde}{
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-#{$valorlado}-width: $valorborde;
+                }
+            }
+                
+        }
+
+    }
+
+
+    
+}
+
+
