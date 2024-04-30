@@ -1,0 +1,27 @@
+@use 'bordes';
+
+$lados: (
+    "m": 1px,
+    "mt": top,
+    "mr":right,
+    "mbm" bottom,
+    "miz": left,
+);
+
+@each $margen, $valormargen in bordes.$tamanio {
+    @each $lado, $valorlado in $lados {
+        @if $lado == "m" {
+            .#{$lado}-#{$margen} {
+                margin: $valormargen;
+            }
+        }
+
+        @if $lado != "m" {
+            .#{$lado}-#{$margen} {
+                margin-#{$valorlado}:$valormargen;
+            }
+        }
+    }
+
+}
+
