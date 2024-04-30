@@ -1,8 +1,10 @@
 @use 'paleta' as *;
-$shadow-1: rgb(99, 163, 172);
+$shadow-1: $crema;
 $shadow-2:  10px 5px 5px $negro;
 $shadow-superior: $negro;
 $shadow-inferior: $naranja;
+$shadow-rgb: rgb(99, 163, 172);
+$t-shadow: 4px 6px 8px black;
 
 .sombra-1{
      box-shadow: $shadow-1;
@@ -19,3 +21,10 @@ $shadow-inferior: $naranja;
 .sombra-inferior{
     box-shadow: $shadow-inferior;
 }
+.srgb{
+    box-shadow: $shadow-rgb;
+}
+.text-s{
+    text-shadow: $t-shadow;
+}
+
