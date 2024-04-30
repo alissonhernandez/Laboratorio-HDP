@@ -1,7 +1,7 @@
 @use 'paleta' as *;
-$shadow-1: $celeste;
-$shadow-2: $negro;
-$shadow-superior: $naranja;
+$shadow-1: rgb(99, 163, 172);
+$shadow-2:  10px 5px 5px $negro;
+$shadow-superior: $negro;
 $shadow-inferior: $naranja;
 
 .sombra-1{
