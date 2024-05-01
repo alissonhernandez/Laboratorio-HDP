@@ -1,6 +1,6 @@
-@use 'fuente' as*;
-@use 'paleta' as*;
-@use 'botones' as*;
+@use 'fuentes' as *;
+@use 'paleta' as *;
+@use 'botones' as *;
 
 $sizelabel: 2vh;
 $sizetext: 1.5 vh;
@@ -75,7 +75,7 @@ $sizes:(
   }
 }
 @each $size1, $media in $sizes{
-  @include formSizeCmb($medida,$size1 );
+  @include formSizeCmb($media,$size1 );
 }
 
 @mixin btnDisable($size, $nombre){
