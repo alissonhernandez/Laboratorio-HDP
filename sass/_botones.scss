@@ -1,3 +1,4 @@
+@use 'paleta' as *;
 $small: 60px;
 $medium: 120px;
 $large: 180px;
@@ -10,33 +11,57 @@ $xl: 240px;
     border: none;
 }
 
-@mixin button-style($color) {
-    background-color: $color;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
-    font-size: $medium-size;
-    cursor: pointer;
-  
-    &:hover {
-      background-color: darken($color, 10%);
-    }
+@mixin botones($nombre, $size, $color, $claro,$nombrec){
+  @if $claro == true{
+      .btn-#{$nombre}-#{$nombrec}{
+          height: $size - calc($size/1.7);
+          width:$size;
+          background-color: $color;
+          color: darken($color, 40);
+          border-radius: calc($size/10);
+      }
+      .btn-#{$nombre}-#{$nombrec}:hover{
+          background-color: darken($color, 40);
+          color: lighten($color, 40)
+      }
+      .btn-#{$nombre}-#{$nombrec}:active{
+          background-color: darken($color, 60);
+          color: lighten($color, 80)
+      }
+
+  }@else{
+      .btn-#{$nombre}-#{$nombrec}{
+          height: $size - calc($size/1.7);
+          width:$size;
+          background-color: $color;
+          color: lighten($color, 40);
+          border-radius: calc($size/10);
+      }
+      .btn-#{$nombre}-#{$nombrec}:hover{
+          background-color: lighten($color, 40);
+          color: darken($color, 40)
+      }
+      .btn-#{$nombre}-#{$nombrec}:active{
+          background-color: lighten($color, 60);
+          color: darken($color, 80)
+      }
   }
-  
-  
-  .btn {
-    &.small {
-      font-size: $small;
-    }
-  
-    &.medium {
-      font-size: $medium;
-    }
-  
-    &.large {
-      font-size: $large;
-    }
-  }
+
+}
+
+@each $color, $valorcolor in $color-claro {
+  @include botones(sm, $small,$valorcolor, true, $color);
+  @include botones(m, $medium,$valorcolor, true, $color);
+  @include botones(l, $large,$valorcolor, true, $color);
+  @include botones(xl, $xl,$valorcolor, true, $color);
+}
+@each $color, $valorcolor in $color-oscuro {
+  @include botones(sm, $small,$valorcolor, false, $color);
+  @include botones(m, $medium,$valorcolor, false, $color);
+  @include botones(l, $large,$valorcolor, false, $color);
+  @include botones(xl, $xl,$valorcolor, false, $color);
+}
+
+
   
   

@@ -8,6 +8,15 @@ $rubio: #e8c069;
 $rojo: #c70202;
 
 $rbgNaranja: rgba(245, 119, 15, 0.808);
+$primario: #5B8FB9;
+$secundario:#4929aa;
+$terciario: #301E67;
+$exito: rgb(61, 201, 61);
+$peligro: rgb(187, 58, 58) ;
+$advertencia: rgb(228, 228, 65);
+$informacion: #9bc8ee;
+$claro: #f2f7f8;
+$oscuro: #03001C;
 
 $color-solido: (
     "naranja": $naranja,
@@ -23,6 +32,21 @@ $color-solido: (
 $color-rgb:(
     "r1": $rgbNaranja,
 );
+$color-claro: (
+    "primario": $primario,
+    "exito": $exito,
+    "advertencia": $advertencia,
+    "informacion": $informacion,
+    "claro": $claro,
+);
+$color-oscuro:(
+    "secundario": $secundario,
+    "terciario":$terciario,
+    "peligro": $peligro,
+    "oscuro": $oscuro,
+
+);
+
 
 
 @each $color, $valorcolor in $color-solido {
@@ -36,3 +60,4 @@ $color-rgb:(
         background-image: $valorcolor;
     }
 }
+
