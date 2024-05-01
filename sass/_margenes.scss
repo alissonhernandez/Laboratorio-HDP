@@ -1,11 +1,11 @@
 @use 'bordes' as *;
 
 $lados: (
-    "b": 1px,
-    "bt": top,
-    "br":right,
-    "bbm": bottom,
-    "biz": left,
+    "m": 1px,
+    "mar": top,
+    "mde":right,
+    "mab": bottom,
+    "miz": left,
 );
 
 @each $margen, $valormargen in $tamanio { //
