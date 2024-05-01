@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../img/logoOcean.png">
+  <link rel="stylesheet" href="../css/OceanLibrary.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <title>Ocean Library</title>
+</head>
+<body class = "text-Arial">
+  <header class = "menu-fondo">
+    <div class = "navbar">
+        <img class="ig p-3" src="../img/logoOcean.png" alt="Ocean Library">
+      <ul>
+        <li class="etiqueta rde-s"><a class="t-none"  href="../index.html">INICIO</a></li>
+        <li class="etiqueta rde-s"><a class="t-none" href="./docs.html">OPCIONES</a></li>
+        <li class="etiqueta rde-s"> <a class="t-none" href="https://github.com/alissonhernandez/Laboratorio-HDP">GITHUB</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="link barra-vertical mar-1 fj rde-s">
+    <h1 class="sf-3 gf p-3">CREAR COMPONENTES</h1>
+    <a class="link-s sf-2" style="background-color:rgba(245, 119, 15, 0.808);" href="./botones.html">Botones</a>
+    <a class="link-s sf-2" href="./formularios.html">Formularios</a>
+    <a class="link-s sf-2" href="./tarjetas.html">Tarjetas</a>
+    <a class="link-s sf-2" href="./alertas.html">Alertas</a>
+    <a class="link-s sf-2" href="./barra-navegacion.html">Barras de Navegacion</a>
+    <a class="link-s sf-2" href="./badges.html">Badges</a>
+    <a class="link-s sf-2" href="./containers.html">Containers</a>
+
+    <h1 class="sf-3 gf p-3">CLASES UTILITARIAS</h1>
+
+    <a class="link-s sf-2" href="./fuente.html">Modificar tamaño, grosor color o tipo de texto</a>
+    <a class="link-s sf-2" href="./sombras.html">Crear Sombras</a>
+    <a class="link-s sf-2" href="./margenes.html">Crear Margenes, padding o bordes</a>
+    <a class="link-s sf-2" href="./mover-elementos.html">Mover elementos</a>
+    <a class="link-s sf-2" href="./redondear.html">Redondear elementos</a>
+    <a class="link-s sf-2" href="./ocultar.html">Ocultar Elementos</a>
+    <a class="link-s sf-2" href="./fondo.html">Colores de fondo</a>
+</div>
+<div style="margin-left: 19.7%; padding-top: 11vh; height: 330vh; display: flex; flex-direction: column;" class="cf-r5 p-5 par-5">
+    <span class="sf-5 mab-5">Alertas</span>
+    <span class="sf-3 ta-justify mab-5">Proporciona mensajes de retroalimentación contextuales para las acciones típicas de los usuarios con mensajes de alerta disponibles y flexibles.</span>
+    <span class="sf-3 gf mab-5">Ejemplos</span>
+    <span class="sf-2 alert mab-5">Las alertas están disponibles en diferentes colores y estilos y para hacer uso de ellas tienes que poner las clases contextuales <span class="gf">obligatorias</span> (por ejemplo <span class="color-font-peligro">.alerta-peligro</span>).</span>
+    <div class="mde-5">
+        <!-- Alerta de informacion normal -->
+        <div class="alerta alerta-informacion m-5">
+            Alerta de información
+        </div>
+        <!-- Alerta de informacion peligro -->
+        <div class="alerta alerta-peligro m-5">
+            Alerta de peligro
+        </div>
+        <!-- Alerta de informacion advertencia -->
+        <div class="alerta alerta-advertencia m-5">
+            Alerta de advertencia
+        </div>
+        <!-- Alerta de informacion completado -->
+        <div class="alerta alerta-completado m-5">
+            Alerta de completado
+        </div>
+    </div>
+    <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-informacion"</span><span>></span>
+            <br>&nbsp &nbsp Alerta de información
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-peligro"</span><span>></span>
+            <br>&nbsp&nbspAlerta de peligro
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-advertencia"</span><span>></span>
+            <br>&nbsp&nbspAlerta de advertencia
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-completado"</span><span>></span>
+            <br>&nbsp&nbspAlerta de completado
+            <span><br> <</span>/div>
+        </div>
+    </div>
+    <span class="sf-5 mab-5 mar-5">Alertas con links</span>
+    <span class="sf-2 mab-5">Utiliza la clase <span class="color-font-peligro">.alerta-link</span> para para que los enlaces obtengan el color referente igual a cualquier alerta.</span>
+    <div class="mde-5">
+           <!-- Alerta de informacion normal -->
+        <div class="alerta alerta-informacion m-5">
+            Alerta de informacion para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+        </div>
+        <!-- Alerta de informacion peligro -->
+        <div class="alerta alerta-peligro m-5">
+            Alerta de peligro para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+        </div>
+        <!-- Alerta de informacion advertencia -->
+        <div class="alerta alerta-advertencia m-5">
+            Alerta de advertencia para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+        </div>
+        <!-- Alerta de informacion completado -->
+        <div class="alerta alerta-completado m-5">
+            Alerta de completado para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+        </div>
+    </div>
+    <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-informacion"</span><span>></span>
+            <br>&nbsp &nbsp Alerta de información para mas
+            <span><</span>a href="#" class="alerta-link">informacion visite aqui
+            <span><</span>/a>
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-peligro"</span><span>></span>
+            <br>&nbsp &nbsp Alerta de peligro para mas
+            <span><</span>a href="#" class="alerta-link">informacion visite aqui
+            <span><</span>/a>
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-advertencia"</span><span>></span>
+            <br>&nbsp &nbsp Alerta de advertencia para mas
+            <span><</span>a href="#" class="alerta-link">informacion visite aqui
+            <span><</span>/a>
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-completado"</span><span>></span>
+            <br>&nbsp &nbsp Alerta de completado para mas
+            <span><</span>a href="#" class="alerta-link">informacion visite aqui
+            <span><</span>/a>
+            <span><br> <</span>/div>
+        </div>
+    </div>
+    <span class="sf-5 mab-5 mar-5">Iconos</span>
+    <span class="sf-2 mab-5">Puedes utilizar iconos en tus alertas, si tienes una imagen en formato sgv puedes personalizar el icono, pero ahora te dejamos unas alertas con unos iconos.</span>
+    <div class="mde-5">
+        <div class="alerta alerta-informacion m-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </svg>
+            Esta es una alerta de informacion
+        </div>
+        <!-- Alerta de peligro -->
+        <div class="alerta alerta-peligro m-5">
+            <svg xmlns="http://www.w3.org/200 svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+            Es una advertencia de peligro!
+        </div>
+        <!-- Alerta de advertencia -->
+        <div class="alerta alerta-advertencia m-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+            Es una advertencia!
+        </div>
+        <!-- Alerta de exito -->
+        <div class="alerta alerta-completado m-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+            Se a completado satisfactoriamente
+        </div>
+    </div>
+    <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-informacion"</span><span>></span>
+            <br>&nbsp &nbsp 
+            <span><</span>svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <br>&nbsp &nbsp&nbsp &nbsp
+            <span><</span>path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <span><br>&nbsp &nbsp<</span>/svg>
+            <br> Esta es una alerta de informacion
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-peligro"</span><span>></span>
+            <br>&nbsp &nbsp 
+            <span><</span>svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <br>&nbsp &nbsp&nbsp &nbsp
+            <span><</span>path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            <span><br>&nbsp &nbsp<</span>/svg>
+            <br> Esta es una alerta de peligro
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-advertencia"</span><span>></span>
+            <br>&nbsp &nbsp 
+            <span><</span>svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <br>&nbsp &nbsp&nbsp &nbsp
+            <span><</span>path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            <span><br>&nbsp &nbsp<</span>/svg>
+            <br> Es una advertencia!
+            <span><br> <</span>/div>
+        </div>
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-completado"</span><span>></span>
+            <br>&nbsp &nbsp 
+            <span><</span>svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <br>&nbsp &nbsp&nbsp &nbsp
+            <span><</span>path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            <span><br>&nbsp &nbsp<</span>/svg>
+            <br> Se a completado satisfactoriamente
+            <span><br> <</span>/div>
+        </div>
+    </div>
+    <span class="sf-5 mab-5 mar-5">Alerta con informacion adicional</span>
+    <span class="sf-2 mab-5">Las alertas también pueden contener elementos HTML adicionales como encabezados y párrafos.</span>
+    <div class="mde-5">
+        <div class="alerta alerta-completado">
+            <h1 class="gf mab-5 mar-5">Bien hecho!</h1>
+            <p class="ttxt-Arial">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et a ex assumenda. Suscipit tenetur soluta, animi reiciendis nobis fuga dolore illo perspiciatis ex, dolores similique, libero impedit commodi eum labore?</p>
+        </div>
+    </div>
+    <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+        <div class="m-5">
+            <span><</span>div
+            <span>class</span>=<span>"alerta alerta-Completado"</span><span>></span>
+            <br>&nbsp &nbsp <span><</span>h1> Bien Hecho!
+            <span><</span>/h1><br>&nbsp &nbsp
+            <span><</span>p class="ttxt-Arial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et a ex assumenda. Suscipit tenetur soluta, animi reiciendis nobis<br>&nbsp &nbsp fuga dolore illo perspiciatis ex, dolores similique, libero impedit commodi eum labore?
+            <span><</span>/p>
+
+            <span><br> <</span>/div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
