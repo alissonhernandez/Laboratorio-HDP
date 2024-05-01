@@ -56,7 +56,7 @@
                     <input type="checkbox" name="a" id="check">
                     <label class="form-check-label">Recordar contraseña</label>
                 </div>
-                <button type="submit" class="btn btn-sm-celeste miz-5 mab-5">Enviar</button>
+                <button type="submit" class="btn btn-sm-rojo miz-5 mab-5">Enviar</button>
             </div>
         </div>
 
@@ -72,7 +72,7 @@
                 <br>&nbsp &nbsp <span><</span>div class="form-checkbox">
                 <br>&nbsp &nbsp &nbsp &nbsp <span><</span>input type="checkbox" name="a" id="check">
                 <br>&nbsp &nbsp &nbsp &nbsp <span><</span>label for="" class="form-check-label">Recordar contraseña <span><</span>/label>
-                <br>&nbsp &nbsp <span><</span>button type="submit" class="btn-sm-celeste miz-5 mab-5">Enviar <span><</span>/button>
+                <br>&nbsp &nbsp <span><</span>button type="submit" class="btn-sm-rojo miz-5 mab-5">Enviar <span><</span>/button>
                 <span><br><</span>/div>
             </div>
         </div>
@@ -122,10 +122,78 @@
                 <span><br><</span>/select>
             </div>
         </div>
-        <span class="sf-2 ta-justify mab-5 mar-5">Existen varios tamaños para los comboBox o listas, utilizando las medidas: small,</span>
-
-
-    </div>
-    
+        <span class="sf-2 ta-justify mab-5 mar-5">Existen varios tamaños para los comboBox o listas, utilizando las medidas: small, medium, large y xl</span>
+        <div class="mde-5" style="display: flex; flex-direction: column;">
+            <select name="" id="" class="form-Cmb-small" size="1">
+                <option selected>Tamaño Small</option>
+            </select>
+            <select name="" id="" class="form-Cmb-medium" size="1">
+                <option selected>Tamaño Medium</option>
+            </select>
+            <select name="" id="" class="form-Cmb-large" size="1">
+                <option selected>Tamaño Large</option>
+            </select>
+            <select name="" id="" class="form-Cmb-xl" size="1">
+                <option selected>Tamaño XL</option>
+            </select>
+        </div>
+        <div class="ttxt-Arial sf-2 mar-5" style="background-color: rgb(243,243,243); border: 1px solid rgb(153,153,153);"> 
+            <div class="m-5">
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-small" size="1" </style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Tamaño Small <span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+            <div class="m-5">
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-medium" size="1" </style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Tamaño Medium <span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+            <div class="m-5">
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-large" size="1" </style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Tamaño Large <span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+            <div class="m-5">
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-xl" size="1" </style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Tamaño XL <span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+        </div>
+        <span class="sf-4 gf mab-5 mar-5">Desactivado</span>
+        <span class="sf-2 ta-justify mab-5">Todos los apartados del formulario se pueden desactivar, para que el usuario no pueda seleccionar o presionar algun elemento</span>
+        <div class="mde-5" style="display: flex; flex-direction: column;">
+            <label class="form-etiqueta">ComboBox desactivado</label>
+            <select  disabled name="" id="" class="form-Cmb-xl disabled miz-5" size="1">
+                <option selected>Abre el menu</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+            <label class="form-etiqueta">Boton desactivado</label>
+            <button disabled="disabled" class="btn btn-disable-sm miz-5" >Desactive </button>
+            <label class="form-etiqueta" >TextBox Desactivados</label>
+            <input disabled type="text" class="form-control disable" aria-placeholder="email" >
+        </div>
+        <div class="ttxt-Arial sf-2 mar-5" style="background-color: rgb(243,243,243); border: 1px solid rgb(153,153,153);">
+            <div class="m-5">
+                <span><</span>label class="form-etiqueta">ComboBox desactivado <span><</span>/label>
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-Xl" size="1" </style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Abre el menu <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="1">Opcion 1 <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="2">Opcion 2 <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="3">Opcion 3 <span><</span>/option>
+                <span><br><</span>/select>
+                <br><br><span><</span>label class="form-etiqueta">Boton desactivado <span><</span>/label>
+                <br><span><</span>button disable="disabled" class="btn btn-disable-sm">Desactive <span><</span>/button>
+                <br><br><span><</span>label class="form-etiqueta">TextBox Desactivado <span><</span>/label>
+                <br><span><</span>input disabled  type="text" class="form-control disable" aria-placeholder="email">
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
