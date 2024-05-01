@@ -1,14 +1,95 @@
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+@use 'fuente' as*;
+@use 'paleta' as*;
+@use 'botones' as*;
+
+$sizelabel: 2vh;
+$sizetext: 1.5 vh;
+$textColor: #7b7b7b;
+$border: #b9b3b3;
+$padding: 1.7vh;
+$radio: 0.4vh;
+$sizes:(
+  'small':100px,
+  'medium':200px,
+  'large':300px,
+  'xl': 400px
+
+);
+
+.form-etiqueta{
+  font-family: Arial;
+  font-size: $sizelabel;
+  padding: $padding 0 0 $padding;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $border;
+  border-radius: $radio;
+}
+
+.form-control{
+  width: 30%;
+  height: 3vh;
+  border-radius: $radio;
+  border: 1px solid $border;
+  margin: 0.4vh 0 0.4vh $padding;
+}
+.form-control:focus{
+  border: 1px solid #6fd1f8;
+  box-shadow: 0 0 0.5vh 0.2vh #6fd1f8;
+  background: #fff;
+  outline: none;
+
+}
+.form-text{
+  color: $textColor;
+  font-size: $sizetext;
+  font-family: Arial;
+  padding-left: $padding;
+
+}
+
+.form-checkbox{
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: 0.4vh 0 0.4vh 1vh;
+  border: none;
+}
+
+.form-check-label{
+  font-size: $sizetext;
+  font-family: Arial;
+}
+
+.disable{
+  background-color: #dadada;
+  color: #fff;
+}
+
+@mixin formSizeCmb($size, $nombre){
+  .form-Cmb-#{$nombre}{
+    width: $size;
   }
-  
-  .form-control:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+@each $size1, $media in $sizes{
+  @include formSizeCmb($medida,$size1 );
+}
+
+@mixin btnDisable($size, $nombre){
+  .btn-disable-#{$nombre}{
+    background-color: #7b7b7b;
+    color:#fff;
+    height: $size - calc($size/1.7);
+    width: $size;
+    border-radius: calc($size/10);
+
   }
+}
+
+@include btnDisable($small,"sm" );
+@include btnDisable($medium, "m");
+@include btnDisable($large, "l" );
+@include btnDisable($xl, "xl");
