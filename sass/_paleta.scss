@@ -7,6 +7,16 @@ $crema: #d3c199;
 $rubio: #e8c069;
 $rojo: #c70202;
 
+$primario: #5B8FB9;
+$secundario:#4929aa;
+$terciario: #301E67;
+$exito: rgb(61, 201, 61);
+$peligro: rgb(187, 58, 58) ;
+$advertencia: rgb(228, 228, 65);
+$informacion: #9bc8ee;
+$claro: #f2f7f8;
+$oscuro: #03001C;
+
 $color-solido: (
     "naranja": $naranja,
     "celeste":$celeste,
@@ -18,3 +28,28 @@ $color-solido: (
     "rojo": $rojo,
 
 );
+
+$color-claro: (
+    "primario": $primario,
+    "exito": $exito,
+    "advertencia": $advertencia,
+    "informacion": $informacion,
+    "claro": $claro,
+);
+$color-oscuro:(
+    "secundario": $secundario,
+    "terciario":$terciario,
+    "peligro": $peligro,
+    "oscuro": $oscuro,
+
+);
+
+
+
+@each $color, $valorcolor in $color-solido {
+    .cf-#{$color} {   
+        background-color: $valorcolor;
+    }
+}
+
+
