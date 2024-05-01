@@ -1,9 +1,9 @@
 //Colores RGB
-$rgb-1: linear-gradient(90deg, #b7500b 0%, #e8c069 100%);
-$rgb-2: linear-gradient(90deg, #9fd5d5 0%, #d3c199 100%);
-$rgb-3: linear-gradient(90deg, #00C9FF 0%, #8dff98 100%);
-$rgb-4: linear-gradient(90deg, #ff3c00 0%, #fdfa1f 100%);
-$rgb-5: linear-gradient(90deg, #e3fc00 0%, #f36c13 100%);
+$rgb-1: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+$rgb-2: linear-gradient(90deg, #1d198b 0%, #12643e 100%);
+$rgb-3: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+$rgb-4: linear-gradient(90deg, #00d2ff 0%, #4958ff 100%);
+$rgb-5: linear-gradient(90deg, #efd5ff 0%, #5e69ff 100%);
 
 $naranja: #b7500b;
 $celeste: #63a3ac;
@@ -16,14 +16,16 @@ $rojo: #c70202;
 $oscuro: #03001C;
 
 $rbgNaranja: rgba(245, 119, 15, 0.808);
-$primario: #b7500b;
-$secundario:  #63a3ac;
-$terciario: #000;
-$exito: #9fd5d5;
-$peligro: #c70202 ;
-$advertencia:  #d3c199;
+$primario: #5B8FB9;
+$secundario:#4929aa;
+$terciario: #301E67;
+$exito: rgb(61, 201, 61);
+$peligro: rgb(187, 58, 58) ;
+$advertencia: rgb(228, 228, 65);
 $informacion: #9bc8ee;
 $claro: #f2f7f8;
+$oscuro: #03001C;
+
 
 
 $color-solido: (
@@ -39,12 +41,12 @@ $color-solido: (
 );
 
 $color-rgb:(
-    "rbgNaranja": $rbgNaranja
-    "r1": $rgb-1,
-    "r2": $rgb-2,
-    "r3": $rgb-3,
-    "r4": $rgb-4,
-    "r5": $rgb-5,
+    "rbgNaranja": $rbgNaranja,
+    "rgb-1": $rgb-1,
+    "rgb-2": $rgb-2,
+    "rgb-3": $rgb-3,
+    "rgb-4": $rgb-4,
+    "rgb-5": $rgb-5,
 );
 
 $color-claro: (
