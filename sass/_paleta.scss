@@ -7,6 +7,8 @@ $crema: #d3c199;
 $rubio: #e8c069;
 $rojo: #c70202;
 
+$rbgNaranja: rgba(245, 119, 15, 0.808);
+
 $color-solido: (
     "naranja": $naranja,
     "celeste":$celeste,
@@ -16,5 +18,21 @@ $color-solido: (
     "crema": $crema,
     "rubio": $rubio,
     "rojo": $rojo,
-
 );
+
+$color-rgb:(
+    "r1": $rgbNaranja,
+);
+
+
+@each $color, $valorcolor in $color-solido {
+    .cf-#{$color} {   
+        background-color: $valorcolor;
+    }
+}
+
+@each $color, $valorcolor in $color-rgb {
+    .cf-#{$color} {   
+        background-image: $valorcolor;
+    }
+}
