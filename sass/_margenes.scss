@@ -8,7 +8,7 @@ $lados: (
     "miz": left,
 );
 
-@each $margen, $valormargen in $tamanio { //
+@each $margen, $valormargen in bordes.$tamanio { 
     @each $lado, $valorlado in $lados {
         @if $lado == "m" {
             .#{$lado}-#{$margen} {
