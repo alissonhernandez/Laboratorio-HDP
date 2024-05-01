@@ -47,8 +47,6 @@ $color-oscuro:(
 
 );
 
-
-
 @each $color, $valorcolor in $color-solido {
     .cf-#{$color} {   
         background-color: $valorcolor;
@@ -60,4 +58,3 @@ $color-oscuro:(
         background-image: $valorcolor;
     }
 }
-
