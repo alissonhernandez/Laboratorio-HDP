@@ -1,5 +1,5 @@
-@use '_fuente';
-@use '_paleta';
+@use 'fuentes' as *;
+@use 'paleta' as *;
 
 //variable menu
 $ds-flex: flex;

@@ -1,14 +1,14 @@
-@use 'bordes';
+@use 'bordes' as *;
 
 $lados: (
-    "m": 1px,
-    "mt": top,
-    "mr":right,
-    "mbm" bottom,
-    "miz": left,
+    "b": 1px,
+    "bt": top,
+    "br":right,
+    "bbm": bottom,
+    "biz": left,
 );
 
-@each $margen, $valormargen in bordes.$tamanio {
+@each $margen, $valormargen in $tamanio { //
     @each $lado, $valorlado in $lados {
         @if $lado == "m" {
             .#{$lado}-#{$margen} {
