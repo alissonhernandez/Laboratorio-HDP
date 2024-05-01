@@ -397,7 +397,7 @@ svg {
 }
 
 .fj {
-  position: fixed;
+  position: sticky;
 }
 
 .fondo-menu1 {

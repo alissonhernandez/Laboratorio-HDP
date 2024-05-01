@@ -94,7 +94,7 @@ $t-a:center;
     background-color: $bg2;
 }
 .fj{
-    position: fixed;
+    position: sticky;
 } 
 
 //clase para el color del header
@@ -148,10 +148,10 @@ $t-a:center;
 }
 
 @mixin laptop{
-    @media screen and (max-height: 860px) {
+    @media screen and (max-height: 600px) {
         @content;
     }
-    @media screen and (max-width: 1490px){
+    @media screen and (max-width: 1024px){
         @content;
     }
 }
