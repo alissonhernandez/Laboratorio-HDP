@@ -30,6 +30,10 @@
   background-color: #c70202;
 }
 
+.cf-oscuro {
+  background-color: #03001C;
+}
+
 .cf-rbgNaranja {
   background-image: rgba(245, 119, 15, 0.808);
 }
@@ -268,7 +272,6 @@ svg {
 .icono- {
   width: 60px;
   height: 60px;
-  background-color: gray;
   padding: 3px;
   display: flex;
   align-items: center;
@@ -290,6 +293,26 @@ svg {
 
 .rubio {
   background-color: #e8c069;
+}
+
+.naranja {
+  background-color: #b7500b;
+}
+
+.negro {
+  background-color: #000;
+}
+
+.blanco {
+  background-color: #ffffff;
+}
+
+.aquamarine {
+  background-color: #9fd5d5;
+}
+
+.rojo {
+  background-color: #c70202;
 }
 
 .fondo-menu {
