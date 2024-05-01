@@ -1,32 +1,48 @@
 @use 'paleta' as *;
 
-$shadow-1: rgb(99, 163, 172);
-$shadow-2:  10px 5px 5px $oscuro;
-$shadow-superior:-15px -25px 10px $oscuro;
-$shadow-inferior: 25px -25px 10px $oscuro;
-$shadow-rgb: rgb(99, 163, 172);
+$shadow-1: rgb(175, 181, 182);
+$shadow-2: 10px 5px 5px $oscuro;
+$shadow-3: inset 4px 4px 4px 0 rgb(20, 20, 20, 0.2);
+$shadow-superior: -15px -25px 10px $oscuro;
+$shadow-inferior: 25px 25px 10px $oscuro;
+$shadow-rgb1: 2px 2px 8px 0 rgb(0, 201, 255), 4px 4px 16px 0 #eec66f,0px 0px 24px 2px rgb(45, 252, 66);
+$shadow-rgb2: 2px 2px 8px 0 rgb(94, 91, 91), 4px 4px 16px 0 rgb(70, 68, 68), 0px 0px 24px 2px rgb(163, 156, 61);
+$shadow-rgb3:2px 2px 8px 0 rgb(55, 224, 247), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(12, 98, 109); 
 $t-shadow: 4px 6px 8px black;
 
-.sombra-1{
+.sombra1{
     box-shadow: $shadow-1;
 }
-
-
-.sombra-2{
+.sombra2{
     box-shadow: $shadow-2;
+}
+
+.sombra3{
+    box-shadow: $shadow-3;
 }
 
 .sombra-superior{
     box-shadow: $shadow-superior;
-}
 
+}
 .sombra-inferior{
     box-shadow: $shadow-inferior;
 }
-.srgb{
-    box-shadow: $shadow-rgb;
+
+.srgb-1{
+    box-shadow: $shadow-rgb1;
+
+}
+.srgb-2{
+    box-shadow: $shadow-rgb2;
+}
+
+.srgb-3{
+    box-shadow: $shadow-rgb3;
 }
 .text-s{
     text-shadow: $t-shadow;
 }
+
+
 

@@ -7,11 +7,80 @@
   <link rel="stylesheet" href="../Lab HDP/css/OceanLibrary.css">
   <link rel="stylesheet" href="../Lab HDP/css/reset.css">
   <title>OCEAN LIBRARY</title>
+  <style>
+    /* Estilos para el body */
+    body {
+      background-image: url('img/fondo.jpg'); /* Ruta de la imagen */
+      background-size: cover; /* La imagen cubre todo el fondo */
+      background-position: center; /* La imagen se posiciona en el centro */
+      font-family: Arial, sans-serif; /* Fuente predeterminada */
+      margin: 0; /* Eliminar margen predeterminado */
+      padding: 0; /* Eliminar relleno predeterminado */
+    }
+
+    /* Estilos para el header */
+    .menu-fondo {
+      background-color: rgba(157, 231, 250, 0.8); /* Color de fondo con transparencia */
+      padding: 20px; /* Espaciado interno */
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar img {
+      width: 100px; /* Tamaño del logo */
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-right: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #000000; /* Color del texto */
+      font-weight: bold;
+    }
+
+     /* Estilos para el contenido principal */
+     .contenedor {
+      background-color: rgba(232, 192, 105, 0.8); /* Color de fondo con transparencia */
+      padding: 20px; /* Espaciado interno */
+      margin: 20px; /* Margen exterior */
+      text-align: center; /* Centrar contenido */
+    }
+
+    .sf-5 {
+      font-size: 24px; /* Tamaño de la fuente */
+      font-weight: bold;
+      margin-bottom: 10px; /* Margen inferior */
+    }
+
+    .sf-2 {
+      font-size: 18px; /* Tamaño de la fuente */
+      line-height: 1.5; /* Espaciado entre líneas */
+    }
+
+    /* Estilos para el footer */
+    footer {
+      background-color: rgba(51, 51, 51, 0.8); /* Color de fondo con transparencia */
+      color: #fff; /* Color del texto */
+      padding: 20px; /* Espaciado interno */
+      text-align: center;
+    }
+  </style>
 </head>
-<body class = "ttxt-Arial">
-  <header class = "menu-fondo rubio">
-    <div class = "navbar">
-      <img class="ig p-0" src="../img/logoOcean.png" alt="Ocean Library">
+<body>
+  <header class="menu-fondo rubio">
+    <div class="navbar">
+      <img class="ig p-3" src="../img/logoOcean.png" alt="Ocean Library">
       <ul>
         <li class="etiqueta rde-s"><a class="t-none"  href="./index.html">INICIO</a></li>
         <li class="etiqueta rde-s"><a class="t-none" href="./enlaces/docs.html">OPCIONES</a></li>
@@ -20,16 +89,16 @@
     </div>
   </header>
 
-  <div style="padding-top: 11vh; height: 100%;" class="cf-blanco p-5 par-5">
+  <div class="cf-blanco p-5 par-5">
     <div class="contenedor" style="display: flex; flex-direction: column; ">
-        <img class="contenedor" style=" width: 30%; height: auto; padding: 0; " src="/img/logoOcean.png" alt="">
-        <span class="sf-5 mab-5 gf">INTRODUCION</span>
-        <span class="sf-2 alert mab-5 ta-justify">Bienvenido a la documentación de OceanLibrary, es una librería de paleta de colores inspirada en la belleza y variedad de colores que se encuentran sobre el mar. Desde los tonos vibrantes del amanecer hasta los suaves azules del océano profundo, esta paleta de colores busca capturar la magia y la tranquilidad de los destinos costeros. <br><br>
+      <span class="sf-5 mab-5 gf">INTRODUCCIÓN</span>
+      <span class="sf-2 alert mab-5 ta-justify">Bienvenido a la documentación de OceanLibrary, es una librería de paleta de colores inspirada en la belleza y variedad de colores que se encuentran sobre el mar. Desde los tonos vibrantes del amanecer hasta los suaves azules del océano profundo, esta paleta de colores busca capturar la magia y la tranquilidad de los destinos costeros. <br><br>
         Nos ofrece una amplia selección de colores inspirados en el mar, incluyendo tonos de azul, verde, amarillo y más. <br><br>
         Posee una fácil integración está diseñada para ser fácilmente integrable en proyectos web y aplicaciones móviles. <br><br>
-        Ademas es personalizable, cada color de la paleta puede ser ajustado según las necesidades del proyecto.</span>
+        Además, es personalizable, cada color de la paleta puede ser ajustado según las necesidades del proyecto.</span>
     </div>
   </div>
+  
 <footer style="background-color: gray;text-align: center; opacity: .8; " class="pos-rel p-5  s sf-2 ">
     <span class="centrado">
         &copy; 2024 OCEAN LIBRARY TODOS LOS DERECHOS RESERVADOS 
