@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logoOcean.png">
+    <link rel="stylesheet" href="../css/OceanLibrary.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Ocean Library</title>
+</head>
+<body class="ttxt-Arial">
+    <header class="fondo-menu fj">
+        <div class="navbar">
+            <img class="ig p-3" src="../img/logoOcean.png" alt=Ocean Library"">
+            <ul>
+                <li class="etiqueta rde-s"><a class="t-none"  href="../index.html">INICIO</a></li>
+                <li class="etiqueta rde-s"><a class="t-none" href="./docs.html">OPCIONES</a></li>
+                <li class="etiqueta rde-s"> <a class="t-none" href="https://github.com/alissonhernandez/Laboratorio-HDP">GITHUB</a></li>
+              </ul>
+        </div>
+
+    </header>
+    <div class="link barra-vertical mar-1 fj rde-s">
+        <h1 class="sf-3 gf p-3">CREAR COMPONENTES</h1>
+        <a class="link-s sf-2"  href="./botones.html">Botones</a>
+        <a class="link-s sf-2" style="background-color:rgba(245, 119, 15, 0.808);" href="./formularios.html">Formularios</a>
+        <a class="link-s sf-2" href="./tarjetas.html">Tarjetas</a>
+        <a class="link-s sf-2"  href="./alertas.html">Alertas</a>
+        <a class="link-s sf-2" href="./barra-navegacion.html">Barras de Navegacion</a>
+        <a class="link-s sf-2" href="./badges.html">Badges</a>
+        <a class="link-s sf-2" href="./containers.html">Containers</a>
+    
+        <h1 class="sf-3 gf p-3">CLASES UTILITARIAS</h1>
+    
+        <a class="link-s sf-2" href="./fuente.html">Modificar tamaño, grosor color o tipo de texto</a>
+        <a class="link-s sf-2" href="./sombras.html">Crear Sombras</a>
+        <a class="link-s sf-2" href="./margenes.html">Crear Margenes, padding o bordes</a>
+        <a class="link-s sf-2" href="./moverElementos.html">Mover elementos</a>
+        <a class="link-s sf-2" href="./redondear.html">Redondear elementos</a>
+        <a class="link-s sf-2" href="./ocultar.html">Ocultar Elementos</a>
+        <a class="link-s sf-2" href="./fondo.html">Colores de fondo</a>
+    </div>
+    <div style="margin-left: 19.7%; padding-top: 11vh; height: 265; display: flex; flex-direction: column;" class="cf-r5 p-5 par-5">
+        <span class="sf-5 mab-5">Formularios</span>
+        <span class="sf-3 ta-justify mab-5">Proporciona mensajes de retroalimentacion contextuales para las acciones típicas de los usuarios con mensajes de alerta disponibles y flexibles</span>
+        <span class="sf-4 gf mab-5">Ejemplo</span>
+        <span class="sf-2 ta-justify mab-5">Se puede crear de manera sencila un formulario de inicio de sesion, creando un div con la clase form e ingresando las etiquetas correspondientes</span>
+        <div class="mde-5">
+            <div class="form" style="background-color: rgb(243,243,243);">
+                <label class="form-etiqueta">Correo Electrónico</label>
+                <input type="text" class="form-control" aria-placeholder="email">
+                <div class="form-text">Ingresa tu correo electronico aqui</div>
+                <label class="form-etiqueta">Contraseña</label>
+                <input type="password" class="form-control" aria-placeholder="password">
+                <div class="form-checkbox">
+                    <input type="checkbox" name="a" id="check">
+                    <label class="form-check-label">Recordar contraseña</label>
+                </div>
+                <button type="submit" class="btn btn-sm-celeste miz-5 mab-5">Enviar</button>
+            </div>
+        </div>
+
+        <div class="ttxt-Arial sf-2" style="background-color: rgb(243,243,243); border:1px solid rgb(153,153,153);">
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"form"</style></span><span>></span>
+                <br>&nbsp &nbsp <span><</span>label class="form-etiqueta">Correo Electrónico <span><</span>/label>
+                <br>&nbsp &nbsp <span><</span>input type="text" class="form-control" aria-placeholder="email">
+                <br>&nbsp &nbsp <span><</span>div class="form-text"> Ingresa tu correo electronico aqui <span><</span>/div>
+                <br>&nbsp &nbsp <span><</span>label class="form-etiqueta"> Contraseña <span><</span>/label>
+                <br>&nbsp &nbsp <span><</span>input type="password" class="form-control" aria-placeholder="password">
+                <br>&nbsp &nbsp <span><</span>div class="form-checkbox">
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>input type="checkbox" name="a" id="check">
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>label for="" class="form-check-label">Recordar contraseña <span><</span>/label>
+                <br>&nbsp &nbsp <span><</span>button type="submit" class="btn-sm-celeste miz-5 mab-5">Enviar <span><</span>/button>
+                <span><br><</span>/div>
+            </div>
+        </div>
+
+        <span class="sf-4 gf mab-5 mar-5">ComboBox o listas</span>
+        <span class="sf-2 ta-justify mab-5">Se puede crear un combobox o lista con multiples opciones</span>
+        <div class="mde-5">
+            <select name="" id="" class="form-Cmb-large"size="1" >
+                <option selected>Abre el mennu</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+        </div>
+        <div class="ttxt-Arial sf-2 mar-5" style="background-color: rgb(243,243,243); border: 1px solid rgb(153,153,153);">
+            <div class="m-5"> 
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-large" size="1"</style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Abre el menu <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="1">Opcion 1 <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="2">Opcion 2 <span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="3">Opcion 3 <span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+        </div>
+        <span class="sf-2 ta-justify mab-5 mar-5">Tambien se puede cambiar el tamaño de los elementos que se mostraran en la lista a la vez</span>
+        <div class="mde-5">
+            <select name="" id="" class="form-Cmb-large" size="3" >
+                <option selected>Abre el menu</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+                <option value="4">Opcion 4</option>
+                <option value="5">Opcion 5</option>
+            </select>
+        </div>
+        <div class="ttxt-Arial sf-2 mar-5" style="background-color: rgb(243,243,243); border: 1px solid rgb(153,153,153);">
+            <div class="m-5">
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-large" size="3"</style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Abre el menu<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="1">Opcion 1<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="2">Opcion 2<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="3">Opcion 3<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="4">Opcion 4<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option value="5">Opcion 5<span><</span>/option>
+                <span><br><</span>/select>
+            </div>
+        </div>
+        <span class="sf-2 ta-justify mab-5 mar-5">Existen varios tamaños para los comboBox o listas, utilizando las medidas: small,</span>
+
+
+    </div>
+    
+</body>
+</html>
