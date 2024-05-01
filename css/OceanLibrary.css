@@ -55,7 +55,7 @@
 }
 
 .cf-r5 {
-  background-image: linear-gradient(90deg, #b7500b 0%, #e8c069 100%);
+  background-image: linear-gradient(90deg, #f8e3d4 0%, #e8c069 100%);
 }
 
 .sf-1 {
@@ -222,12 +222,16 @@ svg {
   padding-right: 5%;
 }
 
-.sombra-1 {
-  box-shadow: rgb(99, 163, 172);
+.sombra1 {
+  box-shadow: rgb(175, 181, 182);
 }
 
-.sombra-2 {
+.sombra2 {
   box-shadow: 10px 5px 5px #03001C;
+}
+
+.sombra3 {
+  box-shadow: inset 4px 4px 4px 0 rgba(20, 20, 20, 0.2);
 }
 
 .sombra-superior {
@@ -235,11 +239,19 @@ svg {
 }
 
 .sombra-inferior {
-  box-shadow: 25px -25px 10px #03001C;
+  box-shadow: 25px 25px 10px #03001C;
 }
 
-.srgb {
-  box-shadow: rgb(99, 163, 172);
+.srgb-1 {
+  box-shadow: 2px 2px 8px 0 rgb(0, 201, 255), 4px 4px 16px 0 #eec66f, 0px 0px 24px 2px rgb(45, 252, 66);
+}
+
+.srgb-2 {
+  box-shadow: 2px 2px 8px 0 rgb(94, 91, 91), 4px 4px 16px 0 rgb(70, 68, 68), 0px 0px 24px 2px rgb(163, 156, 61);
+}
+
+.srgb-3 {
+  box-shadow: 2px 2px 8px 0 rgb(55, 224, 247), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(12, 98, 109);
 }
 
 .text-s {
@@ -263,7 +275,7 @@ svg {
   color: black;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: rgb(99, 163, 172);
+  box-shadow: rgb(175, 181, 182);
 }
 
 .badge-3 {
