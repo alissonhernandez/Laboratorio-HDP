@@ -1,0 +1,30 @@
+@use 'bordes';
+
+$lados: (
+    "p": 1px,
+    "par"top,
+    "pde": right,
+    "pab": bottom,
+    "piz":left,
+
+
+);
+
+@each $padding, $valorpadding in bordes.$tamanio {
+    @each $lado, $valorlado in $lados {
+        @if $lado == "p" {
+            .#{$lado}-#{$padding} {
+                padding: $valorpadding;
+            }
+        }
+        @if $lado != "p" {
+            .#{$lado}-#{$padding} {
+                padding-#{$valorlado}: $valorpadding;
+            }
+        }
+
+    }
+
+}
+
+    
