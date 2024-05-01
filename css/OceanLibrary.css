@@ -452,7 +452,7 @@ svg {
   position: fixed;
 }
 
-@media screen and (max-height: 860px) {
+@media screen and (max-height: 600px) {
   .barra-vertical {
     background-color: #f69f65;
     width: 19.7%;
@@ -467,7 +467,7 @@ svg {
     color: black;
   }
 }
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 1024px) {
   .barra-vertical {
     background-color: #f69f65;
     width: 19.7%;
