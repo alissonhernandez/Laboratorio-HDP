@@ -30,6 +30,10 @@
   background-color: #c70202;
 }
 
+.cf-rbgNaranja {
+  background-image: rgba(245, 119, 15, 0.808);
+}
+
 .sombra-1 {
   box-shadow: #d3c199;
 }
