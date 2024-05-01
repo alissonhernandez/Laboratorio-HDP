@@ -6,6 +6,7 @@ $aquamarine: #9fd5d5;
 $crema: #d3c199;
 $rubio: #e8c069;
 $rojo: #c70202;
+$oscuro: #03001C;
 
 $rbgNaranja: rgba(245, 119, 15, 0.808);
 $primario: #5B8FB9;
@@ -16,7 +17,7 @@ $peligro: rgb(187, 58, 58) ;
 $advertencia: rgb(228, 228, 65);
 $informacion: #9bc8ee;
 $claro: #f2f7f8;
-$oscuro: #03001C;
+
 
 $color-solido: (
     "naranja": $naranja,
@@ -27,6 +28,7 @@ $color-solido: (
     "crema": $crema,
     "rubio": $rubio,
     "rojo": $rojo,
+    "oscuro": $oscuro,
 );
 
 $color-rgb:(
