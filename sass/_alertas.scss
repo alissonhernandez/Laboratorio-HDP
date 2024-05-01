@@ -1,0 +1,34 @@
+@use 'paleta' as*;
+@use 'fuentes' as*
+
+;alerta {
+    display: flex;
+    width: 25%;
+    height: auto;
+    border-radius: 0.4vh;
+    font-size: $size-2;
+    font-family: Arial;
+    align-items: center;
+    padding: 0.6vh 0.6vh 0.6vh 1.5vh;
+    flex-wrap: wrap;
+}
+@mixin alertas($nombre, $color){
+    .alerta-#{$nombre}{
+        background-color: lighten($color, 30) ;
+        color: darken($color, 15);
+        border: 0.01vh solid $color;
+        .alerta-link{
+            color:darken($color, 30);
+        }
+        .alerta-encabezado{
+            color: darken($color, 30);
+        }
+    }
+}
+@include alertas('informacion',$primario);
+@include alertas('peligro', $peligro);
+@include alertas('advertencia',$advertencia);
+@include alertas('completado', $exito);
+svg{
+    padding-right: 5%;
+}

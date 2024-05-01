@@ -34,30 +34,6 @@
   background-image: rgba(245, 119, 15, 0.808);
 }
 
-.sombra-1 {
-  box-shadow: #d3c199;
-}
-
-.sombra-2 {
-  box-shadow: 10px 5px 5px #000;
-}
-
-.sombra-superior {
-  box-shadow: -15px -25px 10px #000;
-}
-
-.sombra-inferior {
-  box-shadow: 25px -25px 10px #b7500b;
-}
-
-.srgb {
-  box-shadow: rgb(99, 163, 172);
-}
-
-.text-s {
-  text-shadow: 4px 6px 8px black;
-}
-
 .sf-1 {
   font-size: 1vh;
 }
@@ -156,6 +132,94 @@
 
 .ta-end {
   text-align: end;
+}
+
+alerta {
+  display: flex;
+  width: 25%;
+  height: auto;
+  border-radius: 0.4vh;
+  font-size: 2.3vh;
+  font-family: Arial;
+  align-items: center;
+  padding: 0.6vh 0.6vh 0.6vh 1.5vh;
+  flex-wrap: wrap;
+}
+
+.alerta-informacion {
+  background-color: #c6d8e7;
+  color: #3c688c;
+  border: 0.01vh solid #5B8FB9;
+}
+.alerta-informacion .alerta-link {
+  color: #254056;
+}
+.alerta-informacion .alerta-encabezado {
+  color: #254056;
+}
+
+.alerta-peligro {
+  background-color: #e4aaaa;
+  color: #812828;
+  border: 0.01vh solid rgb(187, 58, 58);
+}
+.alerta-peligro .alerta-link {
+  color: #461616;
+}
+.alerta-peligro .alerta-encabezado {
+  color: #461616;
+}
+
+.alerta-advertencia {
+  background-color: #f7f7c7;
+  color: #bebe1b;
+  border: 0.01vh solid rgb(228, 228, 65);
+}
+.alerta-advertencia .alerta-link {
+  color: #7b7b11;
+}
+.alerta-advertencia .alerta-encabezado {
+  color: #7b7b11;
+}
+
+.alerta-completado {
+  background-color: #b5eab5;
+  color: #289128;
+  border: 0.01vh solid rgb(61, 201, 61);
+}
+.alerta-completado .alerta-link {
+  color: #185518;
+}
+.alerta-completado .alerta-encabezado {
+  color: #185518;
+}
+
+svg {
+  padding-right: 5%;
+}
+
+.sombra-1 {
+  box-shadow: #d3c199;
+}
+
+.sombra-2 {
+  box-shadow: 10px 5px 5px #000;
+}
+
+.sombra-superior {
+  box-shadow: -15px -25px 10px #000;
+}
+
+.sombra-inferior {
+  box-shadow: 25px -25px 10px #b7500b;
+}
+
+.srgb {
+  box-shadow: rgb(99, 163, 172);
+}
+
+.text-s {
+  text-shadow: 4px 6px 8px black;
 }
 
 .badge-1 {
