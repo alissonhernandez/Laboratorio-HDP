@@ -223,19 +223,19 @@ svg {
 }
 
 .sombra-1 {
-  box-shadow: #d3c199;
+  box-shadow: rgb(99, 163, 172);
 }
 
 .sombra-2 {
-  box-shadow: 10px 5px 5px hsl(0, 0%, 0%);
+  box-shadow: 10px 5px 5px #03001C;
 }
 
 .sombra-superior {
-  box-shadow: -15px -25px 10px hsl(0, 0%, 0%);
+  box-shadow: -15px -25px 10px #03001C;
 }
 
 .sombra-inferior {
-  box-shadow: 25px -25px 10px #b7500b;
+  box-shadow: 25px -25px 10px #03001C;
 }
 
 .srgb {
@@ -263,7 +263,7 @@ svg {
   color: black;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: #d3c199;
+  box-shadow: rgb(99, 163, 172);
 }
 
 .badge-3 {
