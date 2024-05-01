@@ -15,12 +15,12 @@ $color-solido: (
 );
 
 $tamanio:(
+    "0": 0px,
     "1": 3px,
     "2": 7px,
     "3": 10px,
     "4": 13px,
     "5": 16px,
-
 );
 
 $lados:(
@@ -33,7 +33,6 @@ $lados:(
 
 //funcion que genera clases de borde general 
 @each $lado, $valorlado in $lados{
-
     @each $borde, $valorborde in $tamanio {
         @each $color, $valorcolor in $color-solido {
 

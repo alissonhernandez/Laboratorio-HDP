@@ -5,9 +5,7 @@ $lados: (
     "par":top,
     "pde": right,
     "pab": bottom,
-    "piz":left,
-
-
+    "piz": left,
 );
 
 @each $padding, $valorpadding in bordes.$tamanio {
@@ -26,5 +24,3 @@ $lados: (
     }
 
 }
-
-    
