@@ -1,12 +1,13 @@
 @use 'paleta' as *;
 
-$shadow-1: $crema;
-$shadow-2:  10px 5px 5px $negro;
-$shadow-superior:-15px -25px 10px $negro;
-$shadow-inferior: 25px -25px 10px $naranja;
+$shadow-1: rgb(99, 163, 172);
+$shadow-2:  10px 5px 5px $oscuro;
+$shadow-superior:-15px -25px 10px $oscuro;
+$shadow-inferior: 25px -25px 10px $oscuro;
 $shadow-rgb: rgb(99, 163, 172);
 $t-shadow: 4px 6px 8px black;
-$ds:grid;
+
+
 .sombra-1{
      box-shadow: $shadow-1;
 }
