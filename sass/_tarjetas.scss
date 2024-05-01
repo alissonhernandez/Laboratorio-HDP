@@ -1,6 +1,160 @@
-.card {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
+@use 'paleta' as*;
+@use 'sombras' as*
+
+
+;$ds:grid;
+$gtcol1: 1fr ;
+$gtcol2:  1fr 1fr ;
+$gtcol3: 3fr ;
+$gtcol4: 4fr ;
+$gtcol5: 5fr ;
+
+
+//variables para la filas
+$gtfi1:1fr 1fr 1fr;
+$gtfi2:1fr;
+
+
+//tamaños y paddings
+$pd:8px;
+
+$w:400px;
+$h:500px;
+
+$w1:500px;
+$h2:400px;
+
+$g:20px;
+$wt:100%;
+$center:0 auto;
+
+//bordes  redondeados
+$brs: 15px;
+$brss: 15px 12px 23px 5px; 
+$bdt:3px black solid ;
+
+//margenes
+$mg:40px;
+$mgt:40px;
+
+//propiedades de centrado
+$text-a:center;
+$c:center;
+$tex-j:justify;
+$a-li:center;
+
+.card-1{
+
+
+    display: $ds;
+    grid-template-columns: $gtcol1;
+    grid-template-rows: $gtfi1;
+    width: $w;
+    height: $h;
+   text-align: $text-a;
+   box-shadow: $naranja;
+   padding: $pd;
+   border-radius: $brs;  
+  
+
+}
+
+.t-image{
+width: 200px;
+height: auto;
+margin: $center;
+display: $ds;
+  text-align: $c;
+
+
+}
+
+.card-1:hover{
+
+    box-shadow: $naranja;
+
+}
+
+.card-title{
+
+    display: $ds;
+    width: $wt;
+    color: black;
+
+   
+   
+}
+
+.card-body{
+
+    display: $ds;
+    text-align: $c;
+    width: $wt;
+    color: white;
+   
+  
+
+}
+
+
+.card-pie{
+    display: $ds;
+    width: $wt;
+    color: rgb(0, 0, 0);
+    border-top: $bdt;
+   
+    
+   
+}
+
+/////////////////////////////////////////////////////////
+
+.card-2{
+
+
+    display: $ds;
+    grid-template-columns: $gtcol2;
+    grid-template-rows: $gtfi2;
+    width: $w1;
+    height: $h2;
+   text-align: $text-a;
+   padding: $pd;
+   border-radius: $brss;
+   justify-content: $c;
+   text-align:$tex-j ;
+   align-items: $a-li;
+   box-shadow: $naranja;
+   transition: transform .5s ease-in;
+   
+}
+
+.card-2:hover{
+
+    transform: translateY(15px);
+
+}
+
+
+.card-left{
+
+    display: $ds;
+  text-align: $c;
+    color: black;
+    
+    
+
+    
+   
+}
+.card-right{
+
+    display: $ds;
+  text-align: $c;
+    color: white;
+    border: groove 2px rgb(255, 255, 255);
+    margin: 13px;
+
+    
+   
+}
+
