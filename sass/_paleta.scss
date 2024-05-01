@@ -1,3 +1,10 @@
+//Colores RGB
+$rgb-1: linear-gradient(90deg, #b7500b 0%, #e8c069 100%);
+$rgb-2: linear-gradient(90deg, #9fd5d5 0%, #d3c199 100%);
+$rgb-3: linear-gradient(90deg, #00C9FF 0%, #8dff98 100%);
+$rgb-4: linear-gradient(90deg, #ff3c00 0%, #fdfa1f 100%);
+$rgb-5: linear-gradient(90deg, #e3fc00 0%, #f36c13 100%);
+
 $naranja: #b7500b;
 $celeste: #63a3ac;
 $negro: hsl(0, 0%, 0%);
@@ -33,7 +40,13 @@ $color-solido: (
 
 $color-rgb:(
     "rbgNaranja": $rbgNaranja
+    "r1": $rgb-1,
+    "r2": $rgb-2,
+    "r3": $rgb-3,
+    "r4": $rgb-4,
+    "r5": $rgb-5,
 );
+
 $color-claro: (
     "primario": $primario,
     "exito": $exito,
