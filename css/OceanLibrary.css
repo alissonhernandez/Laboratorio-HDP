@@ -82,36 +82,36 @@
   font-weight: bold;
 }
 
-.color-font-naranja {
+.color-font-primario {
   color: #b7500b;
 }
 
-.color-font-celeste {
+.color-font-secundario {
   color: #63a3ac;
 }
 
-.color-font-negro {
-  color: hsl(0, 0%, 0%);
-}
-
-.color-font-blanco {
-  color: #ffffff;
-}
-
-.color-font-aquamarine {
-  color: #9fd5d5;
-}
-
-.color-font-crema {
+.color-font-terceario {
   color: #d3c199;
 }
 
-.color-font-rubio {
+.color-font-exito {
+  color: #9fd5d5;
+}
+
+.color-font-peligro {
+  color: #c70202;
+}
+
+.color-font-advertencia {
   color: #e8c069;
 }
 
-.color-font-rojo {
-  color: #c70202;
+.color-font-informacion {
+  color: #63a3ac;
+}
+
+.color-font-oscuro {
+  color: #03001C;
 }
 
 .ttxt-Arial {

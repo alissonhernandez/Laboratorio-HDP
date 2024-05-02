@@ -28,14 +28,15 @@ $size-5: 5vh;
     }
 }
 
-@include colorfuente('naranja',$naranja);
-@include colorfuente('celeste',$celeste);
-@include colorfuente('negro',$negro);
-@include colorfuente('blanco',$blanco);
-@include colorfuente('aquamarine',$aquamarine);
-@include colorfuente('crema',$crema);
-@include colorfuente('rubio',$rubio);
-@include colorfuente('rojo',$rojo);
+@include colorfuente('primario',$primario);
+@include colorfuente('secundario',$secundario);
+@include colorfuente('terceario',$terciario);
+@include colorfuente('exito',$exito);
+@include colorfuente('peligro',$peligro);
+@include colorfuente('advertencia',$advertencia);
+@include colorfuente('informacion',$informacion);
+@include colorfuente('oscuro',$oscuro);
+
 
 .ttxt-Arial{
     font-family: Arial ;
