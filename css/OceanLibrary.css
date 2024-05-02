@@ -39,23 +39,23 @@
 }
 
 .cf-r1 {
-  background-image: linear-gradient(90deg, #f70000 0%, #ffee00 100%);
+  background-image: linear-gradient(90deg, #0080ff 0%, #00ffff 100%);
 }
 
 .cf-r2 {
-  background-image: linear-gradient(90deg, #ffee00 0%, #ffa600 100%);
+  background-image: linear-gradient(90deg, #00ffff 0%, #ffcc00 100%);
 }
 
 .cf-r3 {
-  background-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  background-image: linear-gradient(90deg, #99ccff 0%, #3399ff 100%);
 }
 
 .cf-r4 {
-  background-image: linear-gradient(90deg, #95deee 0%, #d3c199 100%);
+  background-image: linear-gradient(90deg, #66ccff 0%, #ffdab9 100%);
 }
 
 .cf-r5 {
-  background-image: linear-gradient(90deg, #f8e3d4 0%, #e8c069 100%);
+  background-image: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
 }
 
 .sf-1 {
@@ -223,7 +223,7 @@ svg {
 }
 
 .sombra1 {
-  box-shadow: rgb(175, 181, 182);
+  box-shadow: rgb(96, 125, 39);
 }
 
 .sombra2 {
@@ -231,7 +231,7 @@ svg {
 }
 
 .sombra3 {
-  box-shadow: inset 4px 4px 4px 0 rgba(20, 20, 20, 0.2);
+  box-shadow: inset 4px 4px 4px 0 rgba(33, 33, 33, 0.2);
 }
 
 .sombra-superior {
@@ -243,15 +243,15 @@ svg {
 }
 
 .srgb-1 {
-  box-shadow: 2px 2px 8px 0 rgb(0, 201, 255), 4px 4px 16px 0 #eec66f, 0px 0px 24px 2px rgb(45, 252, 66);
+  box-shadow: 2px 2px 8px 0 rgb(3, 169, 244), 4px 4px 16px 0 #ff9800, 0px 0px 24px 2px rgb(0, 105, 92);
 }
 
 .srgb-2 {
-  box-shadow: 2px 2px 8px 0 rgb(94, 91, 91), 4px 4px 16px 0 rgb(70, 68, 68), 0px 0px 24px 2px rgb(163, 156, 61);
+  box-shadow: 2px 2px 8px 0 rgb(158, 158, 158), 4px 4px 16px 0 rgb(117, 117, 117), 0px 0px 24px 2px rgb(255, 238, 88);
 }
 
 .srgb-3 {
-  box-shadow: 2px 2px 8px 0 rgb(55, 224, 247), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(12, 98, 109);
+  box-shadow: 2px 2px 8px 0 rgb(3, 201, 226), 4px 4px 16px 0 rgb(0, 0, 0), 0px 0px 24px 2px rgb(0, 51, 57);
 }
 
 .text-s {
@@ -275,7 +275,7 @@ svg {
   color: black;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: rgb(175, 181, 182);
+  box-shadow: rgb(96, 125, 39);
 }
 
 .badge-3 {

@@ -1,13 +1,13 @@
 @use 'paleta' as *;
 
-$shadow-1: rgb(175, 181, 182);
+$shadow-1: rgb(96,125,39);
 $shadow-2: 10px 5px 5px $oscuro;
-$shadow-3: inset 4px 4px 4px 0 rgb(20, 20, 20, 0.2);
+$shadow-3: inset 4px 4px 4px 0 rgb(33,33,33,0.2);
 $shadow-superior: -15px -25px 10px $oscuro;
 $shadow-inferior: 25px 25px 10px $oscuro;
-$shadow-rgb1: 2px 2px 8px 0 rgb(0, 201, 255), 4px 4px 16px 0 #eec66f,0px 0px 24px 2px rgb(45, 252, 66);
-$shadow-rgb2: 2px 2px 8px 0 rgb(94, 91, 91), 4px 4px 16px 0 rgb(70, 68, 68), 0px 0px 24px 2px rgb(163, 156, 61);
-$shadow-rgb3:2px 2px 8px 0 rgb(55, 224, 247), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(12, 98, 109); 
+$shadow-rgb1: 2px 2px 8px 0 rgb(3,169,244), 4px 4px 16px 0 #ff9800,0px 0px 24px 2px rgb(0,105,92);
+$shadow-rgb2: 2px 2px 8px 0 rgb(158, 158, 158), 4px 4px 16px 0 rgb(117,117,117), 0px 0px 24px 2px rgb(255,238,88);
+$shadow-rgb3:2px 2px 8px 0 rgb(3,201,226), 4px 4px 16px 0 rgb(0,0,0), 0px 0px 24px 2px rgb(0,51,57);
 $t-shadow: 4px 6px 8px black;
 
 .sombra1{
