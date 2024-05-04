@@ -30,7 +30,7 @@ $list-n: none;
 $mgl:75px;
 $pd:25px 0;
 $f:left;
-$c-c: #212227ff;
+$c-c: rgb(125, 226, 233);
 $ft:Times;
 $t-a:center;
 
@@ -39,7 +39,7 @@ $t-a:center;
 .fondo-menu{
     width: 100%;
     height: 9vh;
-    background-color:#e2e3d9;
+    background-color:#4a8580;
 }
 
 //clase para el menu y centrado
@@ -48,7 +48,7 @@ $t-a:center;
 }
 
 //clase logo
-.ig{
+.image{
     width: $tama;
     padding: $p;
     float: $f;
@@ -66,14 +66,14 @@ $t-a:center;
     transition: transform .2s ease-in;
 }
 
-.t-none{
+.tx-none{
     text-decoration: none;
     color:rgb(255, 255, 255);
 }
 
 .etiqueta:hover{
     color:$bg2;
-    background-color: rgb(124, 121, 121);
+    background-color: rgb(22, 89, 105);
     transform: translateY(5px);
 }
 
@@ -82,7 +82,7 @@ $t-a:center;
 }
 
 .barra-vertical{
-    background-color: lighten($primario, 30) ;
+    background-color: lighten($crema, 30) ;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -93,7 +93,7 @@ $t-a:center;
     text-decoration: none;
     text-align: justify;
     padding: $mg;
-    color: black;
+    color: rgb(161, 125, 125);
 }
 
 .link-s:hover{
@@ -108,7 +108,7 @@ $t-a:center;
 .fondo-menu1{
     width: 100%;
     height: 9vh;
-    background-color:$r1;
+    background-color:$rojo;
 }
 //clase para el menu y centrado
 
@@ -129,7 +129,7 @@ $t-a:center;
     transition: transform .5s ease-in;
 }
 
-.t-none{
+.tx-none{
     text-decoration: none;
     color:black;
 }
@@ -182,25 +182,29 @@ $t-a:center;
         text-decoration: none;
         text-align: justify;
         padding: $pd1;
-        color: black;
+        color: rgb(238, 187, 187);
     }
 }
+
+.h1{
+    justify-content: center;
+}
     
-.mtama{
+.opc{
     width: 100%;
     height:auto;
     display: flex;
 }
 
-.nvbar-3{
+.navbar-3{
     width: 20%;
-    background-color: aquamarine;
+    background-color: #6FBFBE;
     text-align: center;
 }
 
 .link-{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #DABCB4;
     font-size: 18px;
     letter-spacing: 2px;
     display: list-item;
@@ -211,5 +215,5 @@ $t-a:center;
 }
 
 .link-:hover{
-    background-color: rgb(83, 136, 172);
+    background-color: #DABCB4;
 }
