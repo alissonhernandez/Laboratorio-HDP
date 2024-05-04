@@ -39,7 +39,7 @@ $t-a:center;
 .fondo-menu{
     width: 100%;
     height: 9vh;
-    background-color:#4a8580;
+    background-color:#DABCB4;
 }
 
 //clase para el menu y centrado
@@ -73,7 +73,7 @@ $t-a:center;
 
 .etiqueta:hover{
     color:$bg2;
-    background-color: rgb(22, 89, 105);
+    background-color: #F3D5BD;
     transform: translateY(5px);
 }
 
@@ -93,7 +93,7 @@ $t-a:center;
     text-decoration: none;
     text-align: justify;
     padding: $mg;
-    color: rgb(161, 125, 125);
+    color: #028c8c;
 }
 
 .link-s:hover{
@@ -108,7 +108,7 @@ $t-a:center;
 .fondo-menu1{
     width: 100%;
     height: 9vh;
-    background-color:$rojo;
+    background-color:$rubio;
 }
 //clase para el menu y centrado
 
@@ -182,17 +182,13 @@ $t-a:center;
         text-decoration: none;
         text-align: justify;
         padding: $pd1;
-        color: rgb(238, 187, 187);
+        color: black;
     }
-}
-
-.h1{
-    justify-content: center;
 }
     
 .opc{
     width: 100%;
-    height:auto;
+    height: auto;
     display: flex;
 }
 
@@ -204,7 +200,7 @@ $t-a:center;
 
 .link-{
     text-decoration: none;
-    color: #DABCB4;
+    color: white;
     font-size: 18px;
     letter-spacing: 2px;
     display: list-item;
@@ -215,5 +211,5 @@ $t-a:center;
 }
 
 .link-:hover{
-    background-color: #DABCB4;
+    background-color: #028c8c;
 }
