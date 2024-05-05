@@ -54,7 +54,7 @@ Para importar las librerías, debes incluir el archivo style.css que es donde se
 
 ```
 <head>
-    <link rel="stylesheet" href="/OceanLibrary/scss/style.css">
+    <link rel="stylesheet" href="/OceanLibrary/css/OceanLibrary.css">
     <title>Document</title>
 </head>
 ```
