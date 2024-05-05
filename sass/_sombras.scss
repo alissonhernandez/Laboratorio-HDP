@@ -44,5 +44,23 @@ $t-shadow: 4px 6px 8px black;
     text-shadow: $t-shadow;
 }
 
+.contenedor.srgb-1{
+    background-color: $piel;
+}
 
+.contenedor.srgb-2{
+    background-color: $rosa;
+}
+
+.contenedor.srgb-3{
+    background-color: $azulito;
+}
+
+.contenedor.sombra-superior{
+    background-color: $aqua;
+}
+
+.contenedor.sombra-inferior{
+    background-color: $turquesa;
+}
 

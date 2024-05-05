@@ -50,6 +50,10 @@
   background-color: #c70202;
 }
 
+.cf-crema {
+  background-color: #d3c199;
+}
+
 .cf-r1 {
   background-image: linear-gradient(90deg, rgba(211, 212, 214, 0.7058823529) 0%, rgba(131, 225, 253, 0.7137254902) 100%);
 }
@@ -274,6 +278,26 @@ svg {
 
 .text-s {
   text-shadow: 4px 6px 8px black;
+}
+
+.contenedor.srgb-1 {
+  background-color: #F3D5BD;
+}
+
+.contenedor.srgb-2 {
+  background-color: #DABCB4;
+}
+
+.contenedor.srgb-3 {
+  background-color: #a3bcc0;
+}
+
+.contenedor.sombra-superior {
+  background-color: #6fbfbe;
+}
+
+.contenedor.sombra-inferior {
+  background-color: #028c8c;
 }
 
 .badge-1 {
@@ -3828,6 +3852,26 @@ svg {
 
 .rde-circle {
   border-radius: 50%;
+}
+
+.piel {
+  background-color: #F3D5BD;
+}
+
+.rosa {
+  background-color: #DABCB4;
+}
+
+.azulito {
+  background-color: #a3bcc0;
+}
+
+.aqua {
+  background-color: #6fbfbe;
+}
+
+.turquesa {
+  background-color: #028c8c;
 }
 
 .p-0 {
