@@ -413,10 +413,6 @@ svg {
   background-color: #028c8c;
 }
 
-.espacio-nav {
-  margin-top: 9vh;
-}
-
 .fondo-menu {
   width: 100%;
   height: 9vh;
@@ -428,7 +424,7 @@ svg {
 }
 
 .ig {
-  width: 9vh;
+  width: 8vh;
   padding: 8px;
   float: left;
 }
@@ -503,7 +499,7 @@ svg {
   transition: transform 0.5s ease-in;
 }
 
-.t-none {
+.tx-none {
   text-decoration: none;
   color: black;
 }
@@ -534,7 +530,7 @@ svg {
   position: fixed;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 860px) {
   .barra-vertical {
     background-color: white;
     width: 19.7%;
@@ -549,7 +545,7 @@ svg {
     color: black;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1490px) {
   .barra-vertical {
     background-color: white;
     width: 19.7%;
@@ -597,7 +593,7 @@ svg {
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
-  border-radius: 0%;
+  border-radius: 0% !important;
 }
 
 .btn {

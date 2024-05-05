@@ -21,7 +21,7 @@ $bg2:rgb(170, 213, 255);
 $centrado: 0 auto;
 $wm:100%;
 $h:auto;
-$tama: 9vh;
+$tama: 8vh;
 $mg:16px;
 $list-n: none;
 $mgl:75px;
@@ -30,10 +30,6 @@ $f:left;
 $c-c: rgb(125, 226, 233);
 $ft:Times;
 $t-a:center;
-
-.espacio-nav{
-    margin-top: 9vh;
-}
 
 .fondo-menu{
     width: 100%;
@@ -117,7 +113,7 @@ $t-a:center;
     font-size: $ft;
     transition: transform .5s ease-in;
 }
-.t-none{
+.tx-none{
     text-decoration: none;
     color:black;
 }
@@ -146,10 +142,10 @@ $t-a:center;
 }
 
 @mixin laptop{
-    @media screen and (max-height: 600px) {
+    @media screen and (max-height: 860px) {
         @content;
     }
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1490px){
         @content;
     }
 }
@@ -203,5 +199,5 @@ $t-a:center;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
-    border-radius: 0%;
+    border-radius: 0% !important;
 }
