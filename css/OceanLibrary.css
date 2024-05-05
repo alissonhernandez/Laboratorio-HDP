@@ -4010,8 +4010,8 @@ svg {
 }
 
 .etiqueta:hover {
-  color: rgb(170, 213, 255);
-  background-color: #d3c199;
+  color: hsl(0, 22%, 24%);
+  background-color: rgb(170, 213, 255);
   transform: translateY(5px);
 }
 
