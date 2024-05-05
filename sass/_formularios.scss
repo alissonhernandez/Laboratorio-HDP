@@ -27,10 +27,14 @@ $sizes:(
   flex-direction: column;
   border: 1px solid $border;
   border-radius: $radio;
+  margin: 5vh auto;
+  padding: 1vh;
+  width: 400px;
+  align-items: center;
 }
 
 .form-control{
-  width: 30%;
+  width: 70%;
   height: 3vh;
   border-radius: $radio;
   border: 1px solid $border;

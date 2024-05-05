@@ -1,10 +1,10 @@
 @use 'paleta' as *;
 
-$shadow-1: rgb(96,125,39);
-$shadow-2: 10px 5px 5px $oscuro;
+$shadow-1: #f87f2f;
+$shadow-2: 10px 5px 5px $turquesa;
 $shadow-3: inset 4px 4px 4px 0 rgb(33,33,33,0.2);
-$shadow-superior: -15px -25px 10px $oscuro;
-$shadow-inferior: 25px 25px 10px $oscuro;
+$shadow-superior: -15px -25px 10px $celeste;
+$shadow-inferior: 25px 25px 10px $turquesa;
 $shadow-rgb1: 2px 2px 8px 0 rgba(39, 141, 141, 0.685), 4px 4px 16px 0 rgb(245, 155, 20),0px 0px 24px 2px rgb(4, 122, 109);
 $shadow-rgb2: 2px 2px 8px 0 rgb(158, 158, 158), 4px 4px 16px 0 rgb(117,117,117), 0px 0px 24px 2px rgb(250, 230, 48);
 $shadow-rgb3:2px 2px 8px 0 rgb(3,201,226), 4px 4px 16px 0 rgb(0,0,0), 0px 0px 24px 2px rgb(0,51,57);
@@ -45,11 +45,11 @@ $t-shadow: 4px 6px 8px black;
 }
 
 .contenedor.srgb-1{
-    background-color: $piel;
+    background-color: $turquesa;
 }
 
 .contenedor.srgb-2{
-    background-color: $rosa;
+    background-color: $aqua;
 }
 
 .contenedor.srgb-3{
@@ -57,10 +57,10 @@ $t-shadow: 4px 6px 8px black;
 }
 
 .contenedor.sombra-superior{
-    background-color: $aqua;
+    background-color: $rosa;
 }
 
 .contenedor.sombra-inferior{
-    background-color: $turquesa;
+    background-color: $piel;
 }
 

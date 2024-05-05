@@ -245,11 +245,11 @@ svg {
 }
 
 .sombra1 {
-  box-shadow: rgb(96, 125, 39);
+  box-shadow: #f87f2f;
 }
 
 .sombra2 {
-  box-shadow: 10px 5px 5px #03001C;
+  box-shadow: 10px 5px 5px #028c8c;
 }
 
 .sombra3 {
@@ -257,11 +257,11 @@ svg {
 }
 
 .sombra-superior {
-  box-shadow: -15px -25px 10px #03001C;
+  box-shadow: -15px -25px 10px #69e4e8;
 }
 
 .sombra-inferior {
-  box-shadow: 25px 25px 10px #03001C;
+  box-shadow: 25px 25px 10px #028c8c;
 }
 
 .srgb-1 {
@@ -281,11 +281,11 @@ svg {
 }
 
 .contenedor.srgb-1 {
-  background-color: #F3D5BD;
+  background-color: #028c8c;
 }
 
 .contenedor.srgb-2 {
-  background-color: #DABCB4;
+  background-color: #6fbfbe;
 }
 
 .contenedor.srgb-3 {
@@ -293,11 +293,11 @@ svg {
 }
 
 .contenedor.sombra-superior {
-  background-color: #6fbfbe;
+  background-color: #DABCB4;
 }
 
 .contenedor.sombra-inferior {
-  background-color: #028c8c;
+  background-color: #F3D5BD;
 }
 
 .badge-1 {
@@ -317,7 +317,7 @@ svg {
   color: black;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: rgb(96, 125, 39);
+  box-shadow: #f87f2f;
 }
 
 .badge-3 {
@@ -1758,10 +1758,14 @@ svg {
   flex-direction: column;
   border: 1px solid #b3b5b9;
   border-radius: 0.4vh;
+  margin: 5vh auto;
+  padding: 1vh;
+  width: 400px;
+  align-items: center;
 }
 
 .form-control {
-  width: 30%;
+  width: 70%;
   height: 3vh;
   border-radius: 0.4vh;
   border: 1px solid #b3b5b9;
