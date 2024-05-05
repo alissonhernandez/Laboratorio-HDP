@@ -136,7 +136,7 @@ $t-a:center;
     
 .etiqueta-2:hover{
     color:$bg;
-    background-color: $crema;
+    background-color: $aquamarine;
     transform: translateX(20px);
 }
     
@@ -172,7 +172,7 @@ $t-a:center;
 @include laptop(){
     $pd1: 10px;
     .barra-vertical{
-        background-color: lighten($primario, 30) ;
+        background-color: lighten($secundario, 30) ;
         width: 19.7%;
         height: 95%;
         margin-top: 9vh;
