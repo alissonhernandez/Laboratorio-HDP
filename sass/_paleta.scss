@@ -3,21 +3,21 @@ $rgb-1: linear-gradient(90deg, #d3d4d6b4 0%, #83e1fdb6 100%);
 $rgb-2: linear-gradient(90deg, #00ffff 0%, #ffcc00 100%);
 $rgb-3: linear-gradient(90deg, #99ccff 0%, #3399ff 100%);
 $rgb-4: linear-gradient(90deg, #66ccff 0%, #ffdab9 100%);
-$rgb-5: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
+$rgb-5: linear-gradient(90deg, #c70202 0%, #effd25 100%);
 
 // Colores
-$terciario: #b7500b;
+$terciario: #e8c069;
 $secundario: #63a3ac;
 $primario: #DABCB4;
 
 // Colores amanecer/atardecer
-$naranja: #f78539;
-$celeste: #effd25;
+$naranja: #f87f2f;
+$amarillo: #effd25;
 $rojo: #c70202;
 
 
 // Colores claros y oscuros
-$negro: hsl(0, 0%, 0%);
+$negro: hsl(0, 22%, 24%);
 $blanco: #ffffff;
 $claro: #f2f7f8;
 $oscuro: #03001C;
@@ -33,6 +33,7 @@ $aquamarine: #9fd5d5;
 $azulito: #a3bcc0;
 $aqua: #6fbfbe;
 $turquesa: #028c8c;
+$celeste: #69e4e8;
 
 // Colores de alertas
 $exito: #64ec49;
@@ -50,6 +51,10 @@ $color-solido: (
     "rosa": $rosa,
     "turquesa": $turquesa,
     "rubio": $rubio,
+    "celeste": $celeste,
+    "amarillo": $amarillo,
+    "naranja": $naranja,
+    "rojo": $rojo,
 );
 
 $color-rgb:(

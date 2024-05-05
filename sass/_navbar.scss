@@ -39,7 +39,7 @@ $t-a:center;
 .fondo-menu{
     width: 100%;
     height: 9vh;
-    background-color:#DABCB4;
+    background-color: $terciario;
 }
 
 //clase para el menu y centrado
@@ -73,7 +73,7 @@ $t-a:center;
 
 .etiqueta:hover{
     color:$bg2;
-    background-color: $azulito;
+    background-color: $rosa;
     transform: translateY(5px);
 }
 
@@ -136,7 +136,7 @@ $t-a:center;
     
 .etiqueta-2:hover{
     color:$bg;
-    background-color: $turquesa;
+    background-color: $naranja;
     transform: translateX(20px);
 }
     
@@ -215,7 +215,7 @@ $t-a:center;
 }
 
 .barra-vertical {
-    background-color: $primario;
+    background-color: $terciario;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;

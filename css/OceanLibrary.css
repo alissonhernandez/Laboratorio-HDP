@@ -1,5 +1,5 @@
 .cf-negro {
-  background-color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 22%, 24%);
 }
 
 .cf-blanco {
@@ -34,6 +34,22 @@
   background-color: #e8c069;
 }
 
+.cf-celeste {
+  background-color: #69e4e8;
+}
+
+.cf-amarillo {
+  background-color: #effd25;
+}
+
+.cf-naranja {
+  background-color: #f87f2f;
+}
+
+.cf-rojo {
+  background-color: #c70202;
+}
+
 .cf-r1 {
   background-image: linear-gradient(90deg, rgba(211, 212, 214, 0.7058823529) 0%, rgba(131, 225, 253, 0.7137254902) 100%);
 }
@@ -51,7 +67,7 @@
 }
 
 .cf-r5 {
-  background-image: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
+  background-image: linear-gradient(90deg, #c70202 0%, #effd25 100%);
 }
 
 .sf-1 {
@@ -87,7 +103,7 @@
 }
 
 .color-font-terceario {
-  color: #b7500b;
+  color: #e8c069;
 }
 
 .color-font-exito {
@@ -322,7 +338,7 @@ svg {
 }
 
 .celeste {
-  background-color: #effd25;
+  background-color: #69e4e8;
 }
 
 .rubio {
@@ -330,11 +346,11 @@ svg {
 }
 
 .naranja {
-  background-color: #f78539;
+  background-color: #f87f2f;
 }
 
 .negro {
-  background-color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 22%, 24%);
 }
 
 .blanco {
@@ -396,7 +412,7 @@ svg {
 }
 
 .barra-vertical {
-  background-color: #fde0cc;
+  background-color: #fddac3;
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
@@ -421,7 +437,7 @@ svg {
 .fondo-menu1 {
   width: 100%;
   height: 9vh;
-  background-color: #effd25;
+  background-color: #69e4e8;
 }
 
 .navbar-2 {
@@ -472,7 +488,7 @@ svg {
 
 @media screen and (max-height: 600px) {
   .barra-vertical {
-    background-color: #fde0cc;
+    background-color: #fddac3;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -487,7 +503,7 @@ svg {
 }
 @media screen and (max-width: 1024px) {
   .barra-vertical {
-    background-color: #fde0cc;
+    background-color: #fddac3;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -1186,72 +1202,72 @@ svg {
 .btn-sm-terciario {
   height: 24.7058823529px;
   width: 60px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #e8c069;
+  color: #735512;
   border-radius: 6px;
 }
 
 .btn-sm-terciario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #735512;
+  color: white;
 }
 
 .btn-sm-terciario:active {
-  background-color: black;
+  background-color: #1b1404;
   color: white;
 }
 
 .btn-m-terciario {
   height: 49.4117647059px;
   width: 120px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #e8c069;
+  color: #735512;
   border-radius: 12px;
 }
 
 .btn-m-terciario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #735512;
+  color: white;
 }
 
 .btn-m-terciario:active {
-  background-color: black;
+  background-color: #1b1404;
   color: white;
 }
 
 .btn-l-terciario {
   height: 74.1176470588px;
   width: 180px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #e8c069;
+  color: #735512;
   border-radius: 18px;
 }
 
 .btn-l-terciario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #735512;
+  color: white;
 }
 
 .btn-l-terciario:active {
-  background-color: black;
+  background-color: #1b1404;
   color: white;
 }
 
 .btn-xl-terciario {
   height: 98.8235294118px;
   width: 240px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #e8c069;
+  color: #735512;
   border-radius: 24px;
 }
 
 .btn-xl-terciario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #735512;
+  color: white;
 }
 
 .btn-xl-terciario:active {
-  background-color: black;
+  background-color: #1b1404;
   color: white;
 }
 
@@ -1546,72 +1562,72 @@ svg {
 .btn-sm-terciario {
   height: 24.7058823529px;
   width: 60px;
-  background-color: #b7500b;
-  color: #f9bd95;
+  background-color: #e8c069;
+  color: white;
   border-radius: 6px;
 }
 
 .btn-sm-terciario:hover {
-  background-color: #f9bd95;
-  color: black;
+  background-color: white;
+  color: #735512;
 }
 
 .btn-sm-terciario:active {
-  background-color: #fef9f6;
+  background-color: white;
   color: black;
 }
 
 .btn-m-terciario {
   height: 49.4117647059px;
   width: 120px;
-  background-color: #b7500b;
-  color: #f9bd95;
+  background-color: #e8c069;
+  color: white;
   border-radius: 12px;
 }
 
 .btn-m-terciario:hover {
-  background-color: #f9bd95;
-  color: black;
+  background-color: white;
+  color: #735512;
 }
 
 .btn-m-terciario:active {
-  background-color: #fef9f6;
+  background-color: white;
   color: black;
 }
 
 .btn-l-terciario {
   height: 74.1176470588px;
   width: 180px;
-  background-color: #b7500b;
-  color: #f9bd95;
+  background-color: #e8c069;
+  color: white;
   border-radius: 18px;
 }
 
 .btn-l-terciario:hover {
-  background-color: #f9bd95;
-  color: black;
+  background-color: white;
+  color: #735512;
 }
 
 .btn-l-terciario:active {
-  background-color: #fef9f6;
+  background-color: white;
   color: black;
 }
 
 .btn-xl-terciario {
   height: 98.8235294118px;
   width: 240px;
-  background-color: #b7500b;
-  color: #f9bd95;
+  background-color: #e8c069;
+  color: white;
   border-radius: 24px;
 }
 
 .btn-xl-terciario:hover {
-  background-color: #f9bd95;
-  color: black;
+  background-color: white;
+  color: #735512;
 }
 
 .btn-xl-terciario:active {
-  background-color: #fef9f6;
+  background-color: white;
   color: black;
 }
 
@@ -2131,19 +2147,19 @@ svg {
 }
 
 .b-naranja-0 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 0px;
 }
 
 .b-celeste-0 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 0px;
 }
 
 .b-negro-0 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 0px;
 }
@@ -2179,19 +2195,19 @@ svg {
 }
 
 .b-naranja-1 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 3px;
 }
 
 .b-celeste-1 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 3px;
 }
 
 .b-negro-1 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 3px;
 }
@@ -2227,19 +2243,19 @@ svg {
 }
 
 .b-naranja-2 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 7px;
 }
 
 .b-celeste-2 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 7px;
 }
 
 .b-negro-2 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 7px;
 }
@@ -2275,19 +2291,19 @@ svg {
 }
 
 .b-naranja-3 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 10px;
 }
 
 .b-celeste-3 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 10px;
 }
 
 .b-negro-3 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 10px;
 }
@@ -2323,19 +2339,19 @@ svg {
 }
 
 .b-naranja-4 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 13px;
 }
 
 .b-celeste-4 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 13px;
 }
 
 .b-negro-4 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 13px;
 }
@@ -2371,19 +2387,19 @@ svg {
 }
 
 .b-naranja-5 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-width: 16px;
 }
 
 .b-celeste-5 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-width: 16px;
 }
 
 .b-negro-5 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-width: 16px;
 }
@@ -2419,19 +2435,19 @@ svg {
 }
 
 .bar-naranja-0 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 0px;
 }
 
 .bar-celeste-0 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 0px;
 }
 
 .bar-negro-0 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 0px;
 }
@@ -2467,19 +2483,19 @@ svg {
 }
 
 .bar-naranja-1 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 3px;
 }
 
 .bar-celeste-1 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 3px;
 }
 
 .bar-negro-1 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 3px;
 }
@@ -2515,19 +2531,19 @@ svg {
 }
 
 .bar-naranja-2 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 7px;
 }
 
 .bar-celeste-2 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 7px;
 }
 
 .bar-negro-2 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 7px;
 }
@@ -2563,19 +2579,19 @@ svg {
 }
 
 .bar-naranja-3 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 10px;
 }
 
 .bar-celeste-3 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 10px;
 }
 
 .bar-negro-3 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 10px;
 }
@@ -2611,19 +2627,19 @@ svg {
 }
 
 .bar-naranja-4 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 13px;
 }
 
 .bar-celeste-4 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 13px;
 }
 
 .bar-negro-4 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 13px;
 }
@@ -2659,19 +2675,19 @@ svg {
 }
 
 .bar-naranja-5 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-top-width: 16px;
 }
 
 .bar-celeste-5 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-top-width: 16px;
 }
 
 .bar-negro-5 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-top-width: 16px;
 }
@@ -2707,19 +2723,19 @@ svg {
 }
 
 .bde-naranja-0 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 0px;
 }
 
 .bde-celeste-0 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 0px;
 }
 
 .bde-negro-0 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 0px;
 }
@@ -2755,19 +2771,19 @@ svg {
 }
 
 .bde-naranja-1 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 3px;
 }
 
 .bde-celeste-1 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 3px;
 }
 
 .bde-negro-1 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 3px;
 }
@@ -2803,19 +2819,19 @@ svg {
 }
 
 .bde-naranja-2 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 7px;
 }
 
 .bde-celeste-2 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 7px;
 }
 
 .bde-negro-2 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 7px;
 }
@@ -2851,19 +2867,19 @@ svg {
 }
 
 .bde-naranja-3 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 10px;
 }
 
 .bde-celeste-3 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 10px;
 }
 
 .bde-negro-3 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 10px;
 }
@@ -2899,19 +2915,19 @@ svg {
 }
 
 .bde-naranja-4 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 13px;
 }
 
 .bde-celeste-4 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 13px;
 }
 
 .bde-negro-4 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 13px;
 }
@@ -2947,19 +2963,19 @@ svg {
 }
 
 .bde-naranja-5 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-rigth-width: 16px;
 }
 
 .bde-celeste-5 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-rigth-width: 16px;
 }
 
 .bde-negro-5 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-rigth-width: 16px;
 }
@@ -2995,19 +3011,19 @@ svg {
 }
 
 .bab-naranja-0 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 0px;
 }
 
 .bab-celeste-0 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 0px;
 }
 
 .bab-negro-0 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 0px;
 }
@@ -3043,19 +3059,19 @@ svg {
 }
 
 .bab-naranja-1 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 3px;
 }
 
 .bab-celeste-1 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 3px;
 }
 
 .bab-negro-1 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 3px;
 }
@@ -3091,19 +3107,19 @@ svg {
 }
 
 .bab-naranja-2 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 7px;
 }
 
 .bab-celeste-2 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 7px;
 }
 
 .bab-negro-2 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 7px;
 }
@@ -3139,19 +3155,19 @@ svg {
 }
 
 .bab-naranja-3 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 10px;
 }
 
 .bab-celeste-3 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 10px;
 }
 
 .bab-negro-3 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 10px;
 }
@@ -3187,19 +3203,19 @@ svg {
 }
 
 .bab-naranja-4 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 13px;
 }
 
 .bab-celeste-4 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 13px;
 }
 
 .bab-negro-4 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 13px;
 }
@@ -3235,19 +3251,19 @@ svg {
 }
 
 .bab-naranja-5 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-bottom-width: 16px;
 }
 
 .bab-celeste-5 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-bottom-width: 16px;
 }
 
 .bab-negro-5 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-bottom-width: 16px;
 }
@@ -3283,19 +3299,19 @@ svg {
 }
 
 .biz-naranja-0 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 0px;
 }
 
 .biz-celeste-0 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 0px;
 }
 
 .biz-negro-0 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 0px;
 }
@@ -3331,19 +3347,19 @@ svg {
 }
 
 .biz-naranja-1 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 3px;
 }
 
 .biz-celeste-1 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 3px;
 }
 
 .biz-negro-1 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 3px;
 }
@@ -3379,19 +3395,19 @@ svg {
 }
 
 .biz-naranja-2 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 7px;
 }
 
 .biz-celeste-2 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 7px;
 }
 
 .biz-negro-2 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 7px;
 }
@@ -3427,19 +3443,19 @@ svg {
 }
 
 .biz-naranja-3 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 10px;
 }
 
 .biz-celeste-3 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 10px;
 }
 
 .biz-negro-3 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 10px;
 }
@@ -3475,19 +3491,19 @@ svg {
 }
 
 .biz-naranja-4 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 13px;
 }
 
 .biz-celeste-4 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 13px;
 }
 
 .biz-negro-4 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 13px;
 }
@@ -3523,19 +3539,19 @@ svg {
 }
 
 .biz-naranja-5 {
-  border-color: #f78539;
+  border-color: #f87f2f;
   border-style: solid;
   border-left-width: 16px;
 }
 
 .biz-celeste-5 {
-  border-color: #effd25;
+  border-color: #69e4e8;
   border-style: solid;
   border-left-width: 16px;
 }
 
 .biz-negro-5 {
-  border-color: hsl(0, 0%, 0%);
+  border-color: hsl(0, 22%, 24%);
   border-style: solid;
   border-left-width: 16px;
 }
@@ -3917,7 +3933,7 @@ svg {
 .fondo-menu {
   width: 100%;
   height: 9vh;
-  background-color: #DABCB4;
+  background-color: #e8c069;
 }
 
 .navbar {
@@ -3948,7 +3964,7 @@ svg {
 
 .etiqueta:hover {
   color: rgb(170, 213, 255);
-  background-color: #a3bcc0;
+  background-color: #DABCB4;
   transform: translateY(5px);
 }
 
@@ -3957,7 +3973,7 @@ svg {
 }
 
 .barra-vertical {
-  background-color: #f69f65;
+  background-color: #fcf8ee;
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
@@ -4007,7 +4023,7 @@ svg {
 
 .etiqueta-2:hover {
   color: rgb(255, 255, 255);
-  background-color: #028c8c;
+  background-color: #f87f2f;
   transform: translateX(20px);
 }
 
@@ -4090,7 +4106,7 @@ svg {
 }
 
 .barra-vertical {
-  background-color: #DABCB4;
+  background-color: #e8c069;
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
