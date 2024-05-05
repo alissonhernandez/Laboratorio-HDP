@@ -4154,10 +4154,11 @@ svg {
 }
 
 .barra-vertical {
-  background-color: #e8c069;
+  background-color: #DABCB4;
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
+  border-radius: 0%;
 }
 
 /*# sourceMappingURL=OceanLibrary.css.map */
