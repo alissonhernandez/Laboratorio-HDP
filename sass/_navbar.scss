@@ -73,7 +73,7 @@ $t-a:center;
 
 .etiqueta:hover{
     color:$bg2;
-    background-color: #F3D5BD;
+    background-color: $azulito;
     transform: translateY(5px);
 }
 
@@ -82,7 +82,7 @@ $t-a:center;
 }
 
 .barra-vertical{
-    background-color: lighten($rosa, 30) ;
+    background-color: lighten($terciario, 30) ;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -136,7 +136,7 @@ $t-a:center;
     
 .etiqueta-2:hover{
     color:$bg;
-    background-color: $aquamarine;
+    background-color: $turquesa;
     transform: translateX(20px);
 }
     
@@ -172,7 +172,7 @@ $t-a:center;
 @include laptop(){
     $pd1: 10px;
     .barra-vertical{
-        background-color: lighten($terciario, 30) ;
+        background-color: lighten($primario, 30) ;
         width: 19.7%;
         height: 95%;
         margin-top: 9vh;
@@ -185,7 +185,7 @@ $t-a:center;
         color: black;
     }
 }
-    
+  
 .opc{
     width: 100%;
     height: auto;
@@ -212,4 +212,11 @@ $t-a:center;
 
 .link-:hover{
     background-color: #028c8c;
+}
+
+.barra-vertical {
+    background-color: $primario;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 9vh;
 }

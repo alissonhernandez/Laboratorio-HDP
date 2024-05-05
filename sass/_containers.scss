@@ -131,51 +131,47 @@ $breakpoint: (
 $tamanios-columnas:(1,2,3,4,5);
 
 @each $tamanios in $tamanios-columnas{
-.columna-#{$tamanios}{
-  grid-template-columns: repeat(#{$tamanios},1fr);
-  @if $tamanios != 1 {
-  @if $tamanios == 2 {
+  .columna-#{$tamanios}{
+    grid-template-columns: repeat(#{$tamanios},1fr);
+    @if $tamanios != 1 {
+      @if $tamanios == 2 {
       @include redimencionar("xgn"){
       grid-template-columns: repeat(1,1fr);
-      }
+    }
   }
-
   @if $tamanios == 3 {
-      @include redimencionar("xgn"){
-          grid-template-columns: repeat(2,1fr);
-      }
-      @include redimencionar("gn"){
-          grid-template-columns: repeat(1,1fr);
-      }
-  }
-
-  @if $tamanios == 4 {
-
-      @include redimencionar("xgn"){
-          grid-template-columns: repeat(3,1fr);
-      }
-      @include redimencionar("gn"){
-          grid-template-columns: repeat(2,1fr);
-      }
-      @include redimencionar("md"){
-          grid-template-columns: repeat(1,1fr);
-      }
-  }
-
-  @if $tamanios == 5 {
-      @include redimencionar("xgn"){
-          grid-template-columns: repeat(4,1fr);
-      }
-      @include redimencionar("gn"){
-          grid-template-columns: repeat(3,1fr);
-      }
-      @include redimencionar("md"){
-          grid-template-columns: repeat(2,1fr);
-      }
-      @include redimencionar("pq"){
+    @include redimencionar("xgn"){
+      grid-template-columns: repeat(2,1fr);
+    }
+    @include redimencionar("gn"){
       grid-template-columns: repeat(1,1fr);
-      }
+    }
+  }
+  @if $tamanios == 4 {
+    @include redimencionar("xgn"){
+      grid-template-columns: repeat(3,1fr);
+    }
+    @include redimencionar("gn"){
+      grid-template-columns: repeat(2,1fr);
+    }
+    @include redimencionar("md"){
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @if $tamanios == 5 {
+    @include redimencionar("xgn"){
+      grid-template-columns: repeat(4,1fr);
+    }
+    @include redimencionar("gn"){
+      grid-template-columns: repeat(3,1fr);
+    }
+    @include redimencionar("md"){
+      grid-template-columns: repeat(2,1fr);
+    }
+    @include redimencionar("pq"){
+      grid-template-columns: repeat(1,1fr);
+    }
   }
 }
-}
+  }
 }

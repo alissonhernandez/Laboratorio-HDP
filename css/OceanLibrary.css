@@ -79,7 +79,7 @@
 }
 
 .color-font-primario {
-  color: #b7500b;
+  color: #DABCB4;
 }
 
 .color-font-secundario {
@@ -87,7 +87,7 @@
 }
 
 .color-font-terceario {
-  color: #d3c199;
+  color: #b7500b;
 }
 
 .color-font-exito {
@@ -152,6 +152,12 @@
 
 .ta-end {
   text-align: end;
+}
+
+.alert-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .alerta {
@@ -520,10 +526,6 @@ svg {
 
 .link-:hover {
   background-color: rgb(24, 21, 21);
-}
-
-.botones {
-  display: flex;
 }
 
 .btn {
@@ -968,72 +970,72 @@ svg {
 .btn-sm-primario {
   height: 24.7058823529px;
   width: 60px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #DABCB4;
+  color: #824e40;
   border-radius: 6px;
 }
 
 .btn-sm-primario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #824e40;
+  color: white;
 }
 
 .btn-sm-primario:active {
-  background-color: black;
+  background-color: #3e251e;
   color: white;
 }
 
 .btn-m-primario {
   height: 49.4117647059px;
   width: 120px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #DABCB4;
+  color: #824e40;
   border-radius: 12px;
 }
 
 .btn-m-primario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #824e40;
+  color: white;
 }
 
 .btn-m-primario:active {
-  background-color: black;
+  background-color: #3e251e;
   color: white;
 }
 
 .btn-l-primario {
   height: 74.1176470588px;
   width: 180px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #DABCB4;
+  color: #824e40;
   border-radius: 18px;
 }
 
 .btn-l-primario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #824e40;
+  color: white;
 }
 
 .btn-l-primario:active {
-  background-color: black;
+  background-color: #3e251e;
   color: white;
 }
 
 .btn-xl-primario {
   height: 98.8235294118px;
   width: 240px;
-  background-color: #b7500b;
-  color: black;
+  background-color: #DABCB4;
+  color: #824e40;
   border-radius: 24px;
 }
 
 .btn-xl-primario:hover {
-  background-color: black;
-  color: #f9bd95;
+  background-color: #824e40;
+  color: white;
 }
 
 .btn-xl-primario:active {
-  background-color: black;
+  background-color: #3e251e;
   color: white;
 }
 
@@ -1178,6 +1180,78 @@ svg {
 
 .btn-xl-azulito:active {
   background-color: #141c1d;
+  color: white;
+}
+
+.btn-sm-terciario {
+  height: 24.7058823529px;
+  width: 60px;
+  background-color: #b7500b;
+  color: black;
+  border-radius: 6px;
+}
+
+.btn-sm-terciario:hover {
+  background-color: black;
+  color: #f9bd95;
+}
+
+.btn-sm-terciario:active {
+  background-color: black;
+  color: white;
+}
+
+.btn-m-terciario {
+  height: 49.4117647059px;
+  width: 120px;
+  background-color: #b7500b;
+  color: black;
+  border-radius: 12px;
+}
+
+.btn-m-terciario:hover {
+  background-color: black;
+  color: #f9bd95;
+}
+
+.btn-m-terciario:active {
+  background-color: black;
+  color: white;
+}
+
+.btn-l-terciario {
+  height: 74.1176470588px;
+  width: 180px;
+  background-color: #b7500b;
+  color: black;
+  border-radius: 18px;
+}
+
+.btn-l-terciario:hover {
+  background-color: black;
+  color: #f9bd95;
+}
+
+.btn-l-terciario:active {
+  background-color: black;
+  color: white;
+}
+
+.btn-xl-terciario {
+  height: 98.8235294118px;
+  width: 240px;
+  background-color: #b7500b;
+  color: black;
+  border-radius: 24px;
+}
+
+.btn-xl-terciario:hover {
+  background-color: black;
+  color: #f9bd95;
+}
+
+.btn-xl-terciario:active {
+  background-color: black;
   color: white;
 }
 
@@ -1472,72 +1546,72 @@ svg {
 .btn-sm-terciario {
   height: 24.7058823529px;
   width: 60px;
-  background-color: #d3c199;
-  color: white;
+  background-color: #b7500b;
+  color: #f9bd95;
   border-radius: 6px;
 }
 
 .btn-sm-terciario:hover {
-  background-color: white;
-  color: #705c30;
+  background-color: #f9bd95;
+  color: black;
 }
 
 .btn-sm-terciario:active {
-  background-color: white;
+  background-color: #fef9f6;
   color: black;
 }
 
 .btn-m-terciario {
   height: 49.4117647059px;
   width: 120px;
-  background-color: #d3c199;
-  color: white;
+  background-color: #b7500b;
+  color: #f9bd95;
   border-radius: 12px;
 }
 
 .btn-m-terciario:hover {
-  background-color: white;
-  color: #705c30;
+  background-color: #f9bd95;
+  color: black;
 }
 
 .btn-m-terciario:active {
-  background-color: white;
+  background-color: #fef9f6;
   color: black;
 }
 
 .btn-l-terciario {
   height: 74.1176470588px;
   width: 180px;
-  background-color: #d3c199;
-  color: white;
+  background-color: #b7500b;
+  color: #f9bd95;
   border-radius: 18px;
 }
 
 .btn-l-terciario:hover {
-  background-color: white;
-  color: #705c30;
+  background-color: #f9bd95;
+  color: black;
 }
 
 .btn-l-terciario:active {
-  background-color: white;
+  background-color: #fef9f6;
   color: black;
 }
 
 .btn-xl-terciario {
   height: 98.8235294118px;
   width: 240px;
-  background-color: #d3c199;
-  color: white;
+  background-color: #b7500b;
+  color: #f9bd95;
   border-radius: 24px;
 }
 
 .btn-xl-terciario:hover {
-  background-color: white;
-  color: #705c30;
+  background-color: #f9bd95;
+  color: black;
 }
 
 .btn-xl-terciario:active {
-  background-color: white;
+  background-color: #fef9f6;
   color: black;
 }
 
@@ -1622,7 +1696,7 @@ svg {
 .form {
   display: flex;
   flex-direction: column;
-  border: 1px solid #16244b;
+  border: 1px solid #b3b5b9;
   border-radius: 0.4vh;
 }
 
@@ -1630,7 +1704,7 @@ svg {
   width: 30%;
   height: 3vh;
   border-radius: 0.4vh;
-  border: 1px solid #16244b;
+  border: 1px solid #b3b5b9;
   margin: 0.4vh 0 0.4vh 1.7vh;
 }
 
@@ -1800,7 +1874,7 @@ svg {
   margin-top: 0;
   font-size: 16px;
   color: #ffffff;
-  background-color: #b7500b;
+  background-color: #DABCB4;
   padding: 8px;
   border-radius: 5px;
   text-align: center;
@@ -3874,7 +3948,7 @@ svg {
 
 .etiqueta:hover {
   color: rgb(170, 213, 255);
-  background-color: #F3D5BD;
+  background-color: #a3bcc0;
   transform: translateY(5px);
 }
 
@@ -3883,7 +3957,7 @@ svg {
 }
 
 .barra-vertical {
-  background-color: white;
+  background-color: #f69f65;
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
@@ -3933,7 +4007,7 @@ svg {
 
 .etiqueta-2:hover {
   color: rgb(255, 255, 255);
-  background-color: #9fd5d5;
+  background-color: #028c8c;
   transform: translateX(20px);
 }
 
@@ -4013,6 +4087,13 @@ svg {
 
 .link-:hover {
   background-color: #028c8c;
+}
+
+.barra-vertical {
+  background-color: #DABCB4;
+  width: 19.7%;
+  height: 95%;
+  margin-top: 9vh;
 }
 
 /*# sourceMappingURL=OceanLibrary.css.map */

@@ -6,9 +6,9 @@ $rgb-4: linear-gradient(90deg, #66ccff 0%, #ffdab9 100%);
 $rgb-5: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
 
 // Colores
-$primario: #b7500b;
+$terciario: #b7500b;
 $secundario: #63a3ac;
-$terciario: #DABCB4;
+$primario: #DABCB4;
 
 // Colores amanecer/atardecer
 $naranja: #f78539;
@@ -70,6 +70,7 @@ $color-claro: (
     "primario": $primario,
     "piel": $piel,
     "azulito": $azulito,
+    "terciario": $terciario,
 );
 $color-oscuro:(
     "peligro": $peligro,
