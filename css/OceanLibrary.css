@@ -3854,26 +3854,6 @@ svg {
   border-radius: 50%;
 }
 
-.piel {
-  background-color: #F3D5BD;
-}
-
-.rosa {
-  background-color: #DABCB4;
-}
-
-.azulito {
-  background-color: #a3bcc0;
-}
-
-.aqua {
-  background-color: #6fbfbe;
-}
-
-.turquesa {
-  background-color: #028c8c;
-}
-
 .p-0 {
   padding: 0px;
 }
@@ -3997,7 +3977,7 @@ svg {
 .fondo-menu {
   width: 100%;
   height: 9vh;
-  background-color: #e8c069;
+  background-color: #DABCB4;
 }
 
 .navbar {
@@ -4028,7 +4008,7 @@ svg {
 
 .etiqueta:hover {
   color: rgb(170, 213, 255);
-  background-color: #DABCB4;
+  background-color: #d3c199;
   transform: translateY(5px);
 }
 
