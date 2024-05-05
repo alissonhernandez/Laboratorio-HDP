@@ -25,10 +25,11 @@
         }
     }
 }
-@include alertas('informacion',$informacion);
+@include alertas('informacion', $informacion);
 @include alertas('peligro', $peligro);
-@include alertas('advertencia',$advertencia);
+@include alertas('advertencia', $advertencia);
 @include alertas('completado', $exito);
+
 svg{
     padding-right: 5%;
 }

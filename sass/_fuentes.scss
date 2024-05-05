@@ -12,8 +12,8 @@ $size-5: 5vh;
     }
 }
 
-@include sizefont('1',$size-1 );
-@include sizefont('2',$size-2 );
+@include sizefont('1', $size-1 );
+@include sizefont('2', $size-2 );
 @include sizefont('3', $size-3);
 @include sizefont('4', $size-4);
 @include sizefont('5', $size-5 );

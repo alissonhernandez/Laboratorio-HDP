@@ -82,7 +82,7 @@ $t-a:center;
 }
 
 .barra-vertical{
-    background-color: lighten($crema, 30) ;
+    background-color: lighten($rosa, 30) ;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -172,7 +172,7 @@ $t-a:center;
 @include laptop(){
     $pd1: 10px;
     .barra-vertical{
-        background-color: lighten($secundario, 30) ;
+        background-color: lighten($terciario, 30) ;
         width: 19.7%;
         height: 95%;
         margin-top: 9vh;

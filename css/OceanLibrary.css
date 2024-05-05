@@ -30,6 +30,10 @@
   background-color: #028c8c;
 }
 
+.cf-rubio {
+  background-color: #e8c069;
+}
+
 .cf-r1 {
   background-image: linear-gradient(90deg, rgba(211, 212, 214, 0.7058823529) 0%, rgba(131, 225, 253, 0.7137254902) 100%);
 }
@@ -516,6 +520,10 @@ svg {
 
 .link-:hover {
   background-color: rgb(24, 21, 21);
+}
+
+.botones {
+  display: flex;
 }
 
 .btn {
@@ -1614,7 +1622,7 @@ svg {
 .form {
   display: flex;
   flex-direction: column;
-  border: 1px solid #b9b3b3;
+  border: 1px solid #16244b;
   border-radius: 0.4vh;
 }
 
@@ -1622,7 +1630,7 @@ svg {
   width: 30%;
   height: 3vh;
   border-radius: 0.4vh;
-  border: 1px solid #b9b3b3;
+  border: 1px solid #16244b;
   margin: 0.4vh 0 0.4vh 1.7vh;
 }
 
@@ -3951,7 +3959,7 @@ svg {
 
 @media screen and (max-height: 860px) {
   .barra-vertical {
-    background-color: #c7dee1;
+    background-color: white;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
@@ -3966,7 +3974,7 @@ svg {
 }
 @media screen and (max-width: 1490px) {
   .barra-vertical {
-    background-color: #c7dee1;
+    background-color: white;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;

@@ -5,15 +5,15 @@
 $sizelabel: 2vh;
 $sizetext: 1.5 vh;
 $textColor: #7b7b7b;
-$border: #b9b3b3;
+$border: #b3b5b9;
 $padding: 1.7vh;
 $radio: 0.4vh;
+
 $sizes:(
   'small':100px,
   'medium':200px,
   'large':300px,
   'xl': 400px
-
 );
 
 .form-etiqueta{
@@ -36,19 +36,19 @@ $sizes:(
   border: 1px solid $border;
   margin: 0.4vh 0 0.4vh $padding;
 }
+
 .form-control:focus{
   border: 1px solid #6fd1f8;
   box-shadow: 0 0 0.5vh 0.2vh #6fd1f8;
   background: #fff;
   outline: none;
-
 }
+
 .form-text{
   color: $textColor;
   font-size: $sizetext;
   font-family: Arial;
   padding-left: $padding;
-
 }
 
 .form-checkbox{
@@ -85,7 +85,6 @@ $sizes:(
     height: $size - calc($size/1.7);
     width: $size;
     border-radius: calc($size/10);
-
   }
 }
 

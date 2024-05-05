@@ -1,5 +1,4 @@
 //Colores RGB
-
 $rgb-1: linear-gradient(90deg, #d3d4d6b4 0%, #83e1fdb6 100%);
 $rgb-2: linear-gradient(90deg, #00ffff 0%, #ffcc00 100%);
 $rgb-3: linear-gradient(90deg, #99ccff 0%, #3399ff 100%);
@@ -9,7 +8,7 @@ $rgb-5: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
 // Colores
 $primario: #b7500b;
 $secundario: #63a3ac;
-$terciario: #d3c199;
+$terciario: #DABCB4;
 
 // Colores amanecer/atardecer
 $naranja: #f78539;
@@ -50,6 +49,7 @@ $color-solido: (
     "aqua": $aqua,
     "rosa": $rosa,
     "turquesa": $turquesa,
+    "rubio": $rubio,
 );
 
 $color-rgb:(
