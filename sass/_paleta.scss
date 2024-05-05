@@ -6,41 +6,53 @@ $rgb-3: linear-gradient(90deg, #99ccff 0%, #3399ff 100%);
 $rgb-4: linear-gradient(90deg, #66ccff 0%, #ffdab9 100%);
 $rgb-5: linear-gradient(90deg, #ff6600 0%, #ffcc66 100%);
 
-$naranja: #f78539;
-$celeste: #effd25;
-$negro: hsl(0, 0%, 0%);
-$blanco: #ffffff;
-$aquamarine: #9fd5d5;
-$crema: #d3c199;
-$rubio: #e8c069;
-$rojo: #c70202;
-$oscuro: #03001C;
-
-$rbgNaranja: rgba(245, 119, 15, 0.808);
+// Colores
 $primario: #b7500b;
 $secundario: #63a3ac;
 $terciario: #d3c199;
+
+// Colores amanecer/atardecer
+$naranja: #f78539;
+$celeste: #effd25;
+$rojo: #c70202;
+
+
+// Colores claros y oscuros
+$negro: hsl(0, 0%, 0%);
+$blanco: #ffffff;
+$claro: #f2f7f8;
+$oscuro: #03001C;
+
+// Colores arena
+$crema: #d3c199;
+$rubio: #e8c069;
+$piel: #F3D5BD;
+$rosa: #DABCB4;
+
+// Colores agua
+$aquamarine: #9fd5d5;
+$azulito: #a3bcc0;
+$aqua: #6fbfbe;
+$turquesa: #028c8c;
+
+// Colores de alertas
 $exito: #64ec49;
 $peligro: #d63636 ;
 $advertencia: #ebe04a;
 $informacion:  #63a3ac;
-$claro: #f2f7f8;
-$oscuro: #03001C;
 
 $color-solido: (
-    "naranja": $naranja,
-    "celeste":$celeste,
     "negro": $negro,
-    "blanco": $blanco,
+    "blanco":$blanco,
     "aquamarine": $aquamarine,
-    "crema": $crema,
-    "rubio": $rubio,
-    "rojo": $rojo,
-    "oscuro": $oscuro,
+    "piel": $piel,
+    "azulito": $azulito,
+    "aqua": $aqua,
+    "rosa": $rosa,
+    "turquesa": $turquesa,
 );
 
 $color-rgb:(
-    "rbgNaranja": $rbgNaranja,
     "r1": $rgb-1,
     "r2": $rgb-2,
     "r3": $rgb-3,
@@ -49,18 +61,23 @@ $color-rgb:(
 );
 
 $color-claro: (
-    "primario": $primario,
     "exito": $exito,
     "advertencia": $advertencia,
     "informacion": $informacion,
     "claro": $claro,
+    "rosa": $rosa,
+    "rubio": $rubio,
+    "primario": $primario,
+    "piel": $piel,
+    "azulito": $azulito,
 );
 $color-oscuro:(
-    "secundario": $secundario,
-    "terciario":$terciario,
     "peligro": $peligro,
     "oscuro": $oscuro,
-
+    "turquesa": $turquesa,
+    "secundario": $secundario,
+    "terciario": $terciario,
+    "aqua": $aqua,
 );
 
 @each $color, $valorcolor in $color-solido {
