@@ -1,38 +1,169 @@
-@use 'paleta' as*;
-.card {
-    width: 300px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    overflow: hidden;
-    display: inline-block; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+@use 'paleta' as *;
+@use 'fuentes' as *;
+@use 'sombras' as *;
 
-  
-    img {
-        width: auto; // Permitir que la imagen mantenga su relación de aspecto
-        height: 150px; // Altura fija para la imagen
-        display: block;
-        margin: 0 auto; // Centrar la imagen horizontalmente
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5vh;
+}
+.card-1 {
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  background-color: $blanco;
+
+  .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin-top: 0;
+      font-size: 18px;
+      color: $blanco;
+      background-color: $azulito;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
     }
-  
-    .container {
+
+    p {
+      color: $oscuro;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card-2 {
+  width: 250px; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  background-color: $blanco;
+
+  .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin-top: 0;
+      font-size: 18px;
+      color: $blanco;
+      background-color: $aqua;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: $oscuro;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card-3 {
+  width: 200px; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+
+  .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin-top: 0;
+      font-size: 18px;
+      color: $blanco;
+      background-color: $naranja;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: $oscuro;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card-4{
+  width: 200px; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  background-color: $blanco;
+
+  &.sombra2 { 
+    box-shadow: $shadow-2;
+    
+    .card-content {
       padding: 20px;
-      display: flex; // Usar flexbox
-    flex-direction: column; // Alinear el contenido en columna
-  
+      display: flex;
+      flex-direction: column;
+      
       h4 {
         margin-top: 0;
-            font-size: 16px; // Reducir el tamaño de la fuente
-            color: $blanco;
-            background-color: $primario;
-            padding: 8px; // Reducir el relleno
-            border-radius: 5px;
-            text-align: center; // Centrar el texto
+        font-size: 18px;
+        color: $blanco;
+        background-color: $turquesa;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 10px;
       }
-  
+      
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+      }
+      
       p {
         color: $oscuro;
         text-align: center;
+        margin-bottom: 0;
       }
     }
   }
+}
