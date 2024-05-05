@@ -31,7 +31,6 @@ $lados:(
     "biz": left,
 );
 
-//funcion que genera clases de borde general 
 @each $lado, $valorlado in $lados{
     @each $borde, $valorborde in $tamanio {
         @each $color, $valorcolor in $color-solido {
@@ -50,14 +49,7 @@ $lados:(
                     border-style: $tipo;
                     border-#{$valorlado}-width: $valorborde;
                 }
-            }
-                
+            }     
         }
-
-    }
-
-
-    
+    }  
 }
-
-

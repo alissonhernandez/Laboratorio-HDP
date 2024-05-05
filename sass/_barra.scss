@@ -1,25 +1,23 @@
 @use 'fuentes' as *;
 @use 'paleta' as *;
 
-//variable menu
+
 $ds-flex: flex;
 $ds-iblock: inline-block;
 $al-i: center;
 $jc: space-between;
 
-//variables margin
 $pt:30px;
 $p:8px;
 $pl:5px;
 $pr:5px;
 $pd:0px 20px;
 
-//colores de menu
+
 $menu-colort:#ffffff;
 $bg:#d3c199;
 $bg2:#63a3ac;
 
-//centrado y tamaño de imagen
 $centrado: 0 auto;
 $wm:100%;
 $h:auto;
@@ -33,29 +31,26 @@ $c-c: #000;
 $ft:Times;
 $t-a:center;
 
-//funcion corrige que la barra-vertical se monte sobre la imagen
 .espacio-nav{
     margin-top: 9vh;
 }
 
-
-//clase para el color del header
 .fondo-menu{
     width: 100%;
     height: 9vh;
     background-color:#e8c069;
 }
-//clase para el menu y centrado
+
 .navbar{
     text-align: $t-a;
 }
-//clase logo
+
 .ig{
     width: $tama;
     padding: $p;
     float: $f;
 }
-//clase para los elementos del menu
+
 .etiqueta{
     list-style: $list-n;
     padding: $pd;
@@ -102,18 +97,16 @@ $t-a:center;
     position: fixed;
 } 
 
-//clase para el color del header
 .fondo-menu1{
     width: 100%;
     height: 9vh;
     background-color:$celeste;
 }
-//clase para el menu y centrado
+
 .navbar-2{
     text-align: $t-a;
 }
 
-//clase para los elementos del menu
 .etiqueta-2{
     list-style: $list-n;
     padding: $pd;
