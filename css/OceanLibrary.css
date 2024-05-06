@@ -464,6 +464,7 @@ svg {
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
+  overflow-y: auto;
 }
 
 .link-s {
@@ -4117,9 +4118,9 @@ svg {
 
 .etiqueta {
   list-style: none;
-  padding: 25px 0;
+  padding: 18px 0;
   display: inline-block;
-  padding: 25px 0;
+  padding: 18px 0;
   margin-right: 16px;
   font-size: 2.3vh;
   font-size: Times;
@@ -4146,6 +4147,7 @@ svg {
   width: 19.7%;
   height: 95%;
   margin-top: 9vh;
+  overflow-y: auto;
 }
 
 .link-s {
@@ -4176,9 +4178,9 @@ svg {
 
 .etiqueta-2 {
   list-style: none;
-  padding: 25px 0;
+  padding: 18px 0;
   display: inline-block;
-  padding: 25px 0;
+  padding: 18px 0;
   margin-right: 16px;
   font-size: 2.3vh;
   font-size: Times;
@@ -4222,6 +4224,7 @@ svg {
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
+    overflow-y: auto;
   }
   .link-s {
     display: block;
@@ -4237,6 +4240,7 @@ svg {
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
+    overflow-y: auto;
   }
   .link-s {
     display: block;

@@ -28,7 +28,7 @@ $tama: 8vh;
 $mg:16px;
 $list-n: none;
 $mgl:75px;
-$pd:25px 0;
+$pd:18px 0;
 $f:left;
 $c-c: rgb(125, 226, 233);
 $ft:Times;
@@ -81,6 +81,7 @@ $t-a:center;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
+    overflow-y: auto;
 }
 
 .link-s{
@@ -167,6 +168,7 @@ $t-a:center;
         width: 19.7%;
         height: 95%;
         margin-top: 9vh;
+        overflow-y: auto;
     }
     .link-s{
         display: block;
