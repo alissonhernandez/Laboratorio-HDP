@@ -2,25 +2,22 @@
 @use 'paleta' as *;
 
 
-//variables menu
-$ds-flex:flex;
-$ds-iblock:inline-block;
-$al-i:center;
-$jc:space-between;
+$ds-flex: flex;
+$ds-iblock: inline-block;
+$al-i: center;
+$jc: space-between;
 
-//variables margin
 $pt:30px;
 $p:8px;
 $pl:5px;
 $pr:5px;
 $pd:0px 20px;
 
-//colores menu
+
 $menu-colort:rgb(255, 255, 255);
 $bg:rgb(255, 255, 255);
 $bg2:rgb(170, 213, 255);
 
-//centrado y tamaño de imagen
 $centrado: 0 auto;
 $wm:100%;
 $h:auto;
@@ -37,14 +34,14 @@ $t-a:center;
 .fondo-menu{
     width: 100%;
     height: 9vh;
-    background-color: $rosa;
+    background-color:$rosa;
 }
 
 .navbar{
     text-align: $t-a;
 }
 
-.image{
+.ig{
     width: $tama;
     padding: $p;
     float: $f;
@@ -60,14 +57,13 @@ $t-a:center;
     font-size: $ft;
     transition: transform .2s ease-in;
 }
-
 .tx-none{
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color: black;
 }
 
 .etiqueta:hover{
-    color:$negro;
+    color:$bg2;
     background-color: $bg2;
     transform: translateY(5px);
 }
@@ -91,11 +87,9 @@ $t-a:center;
     padding: $mg;
     color: #028c8c;
 }
-
 .link-s:hover{
     background-color: $bg2;
 }
-
 .fj{
     position: fixed;
 } 
@@ -103,7 +97,7 @@ $t-a:center;
 .fondo-menu1{
     width: 100%;
     height: 9vh;
-    background-color: $rubio;
+    background-color:$rubio;
 }
 
 .navbar-3{
@@ -120,18 +114,16 @@ $t-a:center;
     font-size: $ft;
     transition: transform .5s ease-in;
 }
-
 .tx-none{
     text-decoration: none;
     color:black;
 }
-    
 .etiqueta-2:hover{
     color:$bg;
     background-color: $naranja;
     transform: translateX(20px);
 }
-    
+
 .color{
     color: $menu-colort ;
 }
@@ -143,11 +135,9 @@ $t-a:center;
     padding: $mg;
     color: black;
 }
-
 .link-s:hover{
     background-color: $bg2;
 }
-
 .fj{
     position: fixed;
 }
@@ -178,7 +168,7 @@ $t-a:center;
         color: black;
     }
 }
-  
+
 .opc{
     width: 100%;
     height: auto;
@@ -193,7 +183,7 @@ $t-a:center;
 
 .link-{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     letter-spacing: 2px;
     display: list-item;
@@ -202,7 +192,6 @@ $t-a:center;
     border-bottom: 1px solid black ;
     text-align: center;
 }
-
 .link-:hover{
     background-color: #028c8c;
 }
@@ -212,5 +201,5 @@ $t-a:center;
     width: 19.7%;
     height: 95%;
     margin-top: 9vh;
-    border-radius: 0%;
+    border-radius: 0% !important;
 }
